@@ -1,18 +1,19 @@
 # Human Computer Interaction project repository
 
-## 📚 Contents
-
-- [📝 About the project](https://github.com/JoshuaMeza/HCI/tree/master#-about-the-project)
-- [🏫 College information](https://github.com/JoshuaMeza/HCI/tree/master#-college-information)
-- [👨‍💻 Team organization](https://github.com/JoshuaMeza/HCI/tree/master#-team-organization)
-
 ## 📝 About the project
 
-![Project banner](./github/img/Picture_ProjectBanner.png)
+[![Introduction video](./github/img/Screenshot_IntroVideo.png)](#)
 
 Description...
 
-> [Go to the documentation section.](./github/doc/documentation.md)
+> [📚 Go to the documentation section.](./github/doc/index.md)
+
+## 👨‍💻 Team organization
+
+|                      Team Member                      |                    Team Member                     |                    Team Member                     |                     Team Member                      |                    Team Leader                     |
+| :---------------------------------------------------: | :------------------------------------------------: | :------------------------------------------------: | :--------------------------------------------------: | :------------------------------------------------: |
+| ![Member picture](./github/img/Picture_Alejandro.png) | ![Member picture](./github/img/Picture_Amaury.png) | ![Member picture](./github/img/Picture_Carlos.png) | ![Member picture](./github/img/Picture_Jonathan.png) | ![Member picture](./github/img/Picture_Joshua.png) |
+|    [Alejandro Cauich](https://github.com/Alrox97)     |   [Amaury Morales](https://github.com/amcamcamc)   |   [Carlos Kuk](https://github.com/carlosbaeza6)    |   [Jonathan Gómez](https://github.com/JonathanGGB)   |    [Joshua Meza](https://github.com/JoshuaMeza)    |
 
 ## 🏫 College information
 
@@ -20,13 +21,10 @@ Description...
 
 Facultad de Matemáticas, Universidad Autónoma de Yucatán.
 
+### Career
+
+Bachelor of Software Engineering.
+
 ### Professor
 
 Dr. Edgar Cambranes Martínez.
-
-## 👨‍💻 Team organization
-
-|                      Team Member                      |                    Team Member                     |                    Team Member                     |                     Team Member                      |                    Team Leader                     |
-| :---------------------------------------------------: | :------------------------------------------------: | :------------------------------------------------: | :--------------------------------------------------: | :------------------------------------------------: |
-| ![Member picture](./github/img/Picture_Alejandro.png) | ![Member picture](./github/img/Picture_Amaury.png) | ![Member picture](./github/img/Picture_Carlos.png) | ![Member picture](./github/img/Picture_Jonathan.png) | ![Member picture](./github/img/Picture_Joshua.png) |
-|                   Alejandro Cauich                    |                   Amaury Morales                   |                     Carlos Kuk                     |                    Jonathan Gómez                    |                    Joshua Meza                     |
