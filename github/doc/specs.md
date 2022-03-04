@@ -21,7 +21,7 @@ This proyect is aiming to fight negative effects that social isolation has cause
 
 ### Description
 
-In this times, the pandemic has caused many problems around the people, not only healthy issues but social and psichologycal too, social isolation has caused symptoms of acute stress disorder, which means people in quarantine suffers from distress and psychological problems like anxiety, paranoia, insomnia, and others.
+In this times, the pandemic has caused many problems around the people, not only healthy issues but social and psichologycal too, social isolation has caused symptoms of acute stress disorder, which means people in quarantine suffers from distress and psychological problems like anxiety, paranoia, insomnia, and others. To fight all of this psychological problems we want to develop a Diary app with different functions to help people express their feelings and other options like erasing the paper, throwing it to a trash can , burning it, all in all to releave the people of their own anxieties and stressful experiences.
 
 ### Target users
 The target from this proyect are college students with a deteriortion in their academic performances due to emotional exhaustion or stress.
@@ -30,7 +30,8 @@ As for solutions, there are quite a lot of solutions, writing your experiences a
 
 ### Objectives
 Although there are multiple applications that are made to tackle feelings of stress and depression like Headspace and Dare, they normally have audio guides and textual sources to read but this doesnt include a therapeutic way to ventilate about your own feelings by writing or drawing and on the market there are certain cons that can propose a problem which is Not to be completly informed on these subjects, this app wants to overcome this problems so people have a better way of letting go of their feelings to make them feel better and have a good response on the people in a therapeutic way.
-- ...
+
+- 
 
 ## Personas
 
@@ -57,17 +58,18 @@ Although there are multiple applications that are made to tackle feelings of str
 ## Requirements definition
 
 ### Non-functional
-Avaliability:
--People can use the diary whenever need to so it needs to be avaliable at all times
-Portable:
--The diary app should be accesible in different systems.
-Scalability:
--The diary should progress with information and updates as time goes on.
-Usability: 
+#### Avaliability:
+- People can use the diary whenever need to so it needs to be avaliable at all times
+#### Portable:
+- The diary app should be accesible in different systems.
+#### Scalability:
+- The diary should progress with information and updates as time goes on.
+#### Usability: 
 - People should use the diary to relieve stress which is recommended to be used once a day at least.
-Security:
--As it is a diary, people should have what they write or do with the diary as private as possible for only them to insert their experiences.
--The user can share their pages if they allow it to. 
-- ...
+#### Security:
+- As it is a diary, people should have what they write or do with the diary as private as possible for only them to insert their experiences.
+
+ - The user can share their pages if they allow it to. 
+
 
 > [👈 Go back.](./index.md)
