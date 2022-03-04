@@ -2,7 +2,7 @@
 
 ## 📝 About the project
 
-[![Introduction video](./github/img/Screenshot_IntroVideo.png)](#)
+[![Introduction video](./github/img/IntroVideo.png)](https://youtu.be/prHE3JrUufs)
 
 Description...
 
