@@ -43,7 +43,7 @@
 
 #### Interview with experts
 
-- About the method...
+- About the method
 	This method consists of interviewing people with specialized knowledge on the subject to be investigated, its implementation is very useful to acquire a lot of information in a short time, in addition to the fact that the information comes from a reliable source, in this type of interview it is recommended to structure previously, for By means of a script, the information that you want to collect to ask all the necessary questions, reducing the margin of error when applying it, since it must be taken into account that the experts will not necessarily be available 24/7 in which case we need an second interview with the same person, it is preferable that everything goes well from the first interview, so it is important to plan it in advance.
 
 - Procedure
@@ -52,8 +52,9 @@
 	3. Delve into the answers you get, record the sessions and write down the most important points.
 	4. Make a transcript of the interview to define valuable information for your project. Carry out more than one interview and categorize the information of each of the interviewees. Find common points or codes between them.
 
-- About the project... 	
+- About the project 	
 	In the case of our project, we use this research method to collect information about the problem that is being worked on with the help of Psychologist Alex Herrera, who gave us the opportunity to interview him. The following questions were asked for the interview:
+
      	
 	- From your point of view, what have been the reasons for the recent increase in mental health cases in university students?
 
