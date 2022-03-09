@@ -43,29 +43,41 @@
 
 #### Interview with experts
 
-- This method consists of interviewing people with specialized knowledge on the subject to be investigated, its implementation is very useful to acquire a lot of information in a short time, and the information comes from a reliable source. In the case of our project, we use this research method to collect information about the problem being worked on with the help of... who gave us the opportunity to interview him. The following questions were asked for the interview:
+- About the method...
+	This method consists of interviewing people with specialized knowledge on the subject to be investigated, its implementation is very useful to acquire a lot of information in a short time, in addition to the fact that the information comes from a reliable source, in this type of interview it is recommended to structure previously, for By means of a script, the information that you want to collect to ask all the necessary questions, reducing the margin of error when applying it, since it must be taken into account that the experts will not necessarily be available 24/7 in which case we need an second interview with the same person, it is preferable that everything goes well from the first interview, so it is important to plan it in advance.
 
-     From your point of view, what have been the reasons for the recent increase in mental health cases in university students?
+- Procedure
+	1. Define and contact the experts you need to interview based on the knowledge required. An expert is a person who has a lot of knowledge about a specific topic that is desired or required to deepen and learn.
+	2. Structure and generate a script of questions that you will address during the interview. It may happen that during the interview new questions arise, so it is recommended to integrate them into the script of the current interviewee and have them for a future interviewee.
+	3. Delve into the answers you get, record the sessions and write down the most important points.
+	4. Make a transcript of the interview to define valuable information for your project. Carry out more than one interview and categorize the information of each of the interviewees. Find common points or codes between them.
 
-     What do you consider to be the best alternative treatment options to therapy when this cannot become a possibility for a patient?
+- About the project... 	
+	In the case of our project, we use this research method to collect information about the problem that is being worked on with the help of Psychologist Alex Herrera, who gave us the opportunity to interview him. The following questions were asked for the interview:
+     	
+	- From your point of view, what have been the reasons for the recent increase in mental health cases in university students?
 
-     Investigating, we found that the writing of traumatic experiences can generate positive effects in overcoming them in the medium term, do you consider it a viable option for this problem?
+     	- What do you consider to be the best alternative treatment options to therapy when this cannot become a possibility for a patient?
 
-     Do you consider technology to be a tool that can help in this type of situation? why?
+     	- Investigating, we found that the writing of traumatic experiences can generate positive effects in overcoming them in the medium term, do you consider it a viable option for this problem?
 
-     Do you know psychological help apps or websites? Which? To what do you think your success or failure is due?
+     	- Do you consider technology to be a tool that can help in this type of situation? why?
 
-     If you could use a tool to help your patients with complementary activities to therapy sessions, what would the tool do?
+     	- Do you know psychological help apps or websites? Which? To what do you think your success or failure is due?
 
-     What aspects should we always keep in mind when building the solution?
+     	- If you could use a tool to help your patients with complementary activities to therapy sessions, what would the tool do?
 
-     Is there any difficulty that you think could harm the development of the project?
+     	- What aspects should we always keep in mind when building the solution?
 
-     How should the solution be tested once it is done? Taking into account ethical factors.
+     	- Is there any difficulty that you think could harm the development of the project?
 
-     Is there any additional advice or insight you'd like to offer in closing?
+     	- How should the solution be tested once it is done? Taking into account ethical factors.
+
+     	- Is there any additional advice or insight you'd like to offer in closing?
+
 - Conclusion
-     From this interview we can conclude that it can be a bit complicated to cure them only with the help of technology, however this can be a great help tool for the care of our mental health, because now it is very common for people to have with an intelligent device, facilitating interaction with users by being a direct means of communication with them. Thanks to the interview we were able to identify our target users and it served as a research guide to find the activities that most help us maintain good mental health care.
+     	From this interview we managed to clarify certain difficulties that we will use in the project, because initially we wanted to guide the project to treat patients with psychological problems such as depression or anxiety using technology to achieve it, however the psychologist mentioned to us that a very important point to treat this type of disease is human interaction, so using only technology to treat these diseases can become very complicated and we find that they cause more problems instead of solving it, let us remember that the psychological problems in students began with the social isolation and little contact they had with their peers and although contact continued to exist virtually, this does not replace one-on-one interaction with other students or teachers. however, technology can serve as a complementary aid to maintain good mental health exhausting information and activities to control problems such as stress or even some cases of depression that are not clinical. In these times it is very common for people to have at least one smart device in their homes or pockets, so it is a means that we can use to reach our public objective, in the case of our project, being university students, it is very likely that they have at least one smart device so it is a great help for us. Last but not least, it should be mentioned that confidentiality must be one of our priorities when presenting a solution because the information on this type of problem can be sensitive.
+
 
 ### sources of information
 
