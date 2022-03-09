@@ -89,7 +89,6 @@
 
    - Healthy lifestyle: A poor diet is directly related to mental health problems. Maintaining a good diet combined with exercise can be an effective, attractive and low-cost therapeutic resource for the treatment of these problems.
 
-
 #### Survey
 
 ...
