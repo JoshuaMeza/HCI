@@ -84,13 +84,19 @@
 
 ### sources of information
 
-   - Writing: It is a great kind of therapy that helps people organize their ideas, detect what is causing them problems, bringing out their hidden emotions and thoughts, and confronting them at their own pace.​
+	To start thinking about a solution proposal, we took on the task of investigating what are those activities that can help us when we feel bad about a situation or we are under too much stress, we know that there can be an infinity of activities that can help us to improve the situation, but on this occasion we decided to investigate the 4 that have presented the best results when they are carried out by the person, another thing to take into account is their implementation in digital media since some activities can be complicated to represent in a digital format because it requires social interaction between people for its implementation, and as we mentioned before, we do not seek to replace social activities due to their importance in the treatment of these diseases. Similarly, we have the advice of psychologist Alex Herrera on the effectiveness of these activities in his experience as a psychologist.
 
-   - Music: Receptive music therapy consists of listening to music, Ambiental sounds or voices to reduce the effects of physical or mental diseases. Music has demonstrated to be good at reducing stress and sadness.​
+	- Writing: It is a great type of therapy that helps people organize their ideas, detect what is causing them problems, bring to light their hidden emotions and thoughts and confront them at their own pace.
 
-   - Painting: Art therapy consists in helping a person to finally relax while creating a piece of art, making easier for them to process and release their emotions. Activities such as painting, and coloring have showed to exponentially drop the stress levels on people.​
+	- Music: Receptive music therapy consists of listening to music, environmental sounds or voices to reduce the effects of physical or mental illnesses. Music has been shown to be good for reducing stress and sadness.
 
-   - Healthy lifestyle: A poor diet is directly related to mental health problems. Maintaining a good diet combined with exercise can be an effective, attractive and low-cost therapeutic resource for the treatment of these problems.
+	- Painting: Art therapy consists of helping a person to finally relax while creating a work of art, facilitating the process and the release of their emotions. Activities such as painting and coloring have been shown to reduce people's stress levels exponentially.
+	   
+	- Healthy lifestyle: A poor diet is directly related to mental health problems. Maintaining a good diet combined with exercise can be an effective, attractive and low-cost therapeutic resource for the treatment of these problems.
+
+	After conducting research at the PMC - NCBI, we managed to find information on mental health interventions in university students during the COVID -19 pandemic.
+	The website compiles different investigations and recommendations carried out by different institutions or organizations in which as a common point they mention that maintaining a healthy lifestyle such as exercise and a good diet help directly to treat this type of disease, since It helps us stay healthy and energetic, reduce sleep problems, hopelessness and poor sociability.
+
 
 #### Survey
 
