@@ -73,8 +73,8 @@ We need to know the times people use technology:
 #### Sensory/Immersive Characteristics of Usage
 We also need attributes that can relate on what sort of thoughs people feel about technology:
 
--Mood/Feeling
--Pleasurable
+- Mood/Feeling
+- Pleasurable
 ### Research methods
 
 #### Interview with experts
