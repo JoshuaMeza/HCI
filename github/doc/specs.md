@@ -4,11 +4,16 @@
 
 - [Project definition](#project-definition)
   - [Description](#description)
+  - [Problematic](#problematic)
   - [Target users](#target-users)
   - [Objectives](#objectives)
 - [Personas](#personas)
   - [Desired attributes](#desired-attributes)
-    - [...](#)
+    - [Persona's Biographic Background](#personas-biographic-background)
+    - [Specific Goals/Needs/Attitudes](#specific-goalsneedsattitudes)
+    - [Context of Usage](#context-of-usage)
+    - [Interaction Characteristics of Usage](#interaction-characteristics-of-usage)
+    - [Sensory/Immersive Characteristics of Usage](#sensoryimmersive-characteristics-of-usage)
   - [Research methods](#research-methods)
     - [Interview with experts](#interview-with-experts)
     - [Survey](#survey)
@@ -17,34 +22,42 @@
   - [Non-functional](#non-functional)
 
 ## Project definition
-This proyect is aiming to fight negative effects that social isolation has cause during the course of the pandemic using a diary that allows people to write, draw and paste different images while at the same time releasing their negative emotions and helping them be more relaxed lifestyle.
 
 ### Description
 
-In this times, the pandemic has caused many problems around the people, not only healthy issues but social and psichologycal too, social isolation has caused symptoms of acute stress disorder, which means people in quarantine suffers from distress and psychological problems like anxiety, paranoia, insomnia, and others. To fight all of this psychological problems we want to develop a Diary app with different functions to help people express their feelings and other options like erasing the paper, throwing it to a trash can , burning it, all in all to releave the people of their own anxieties and stressful experiences.
+This project is aiming to fight, or at least reducing, the negative effects on people’s mental health that social isolation has caused during the COVID-19 pandemic, such as stress, anxiety, sadness, among others.
+
+After doing some research, it was found some therapeutical activities that could be of benefit as stress relievers, such as creating art (e.g., drawing), sharing experiences (e.g., writing or talking with other people), having a healthy lifestyle (e.g., doing exercise and having a balanced diet), and trying receptive music therapy (this includes some kinds of music, Ambiental sounds, and voices). Besides, the survey gave indicators of which of them are the preferred ones and that a technological approach would be appreciated.
+
+The project consists of developing a mobile application that simulates using a diary, with the option of reproducing music, sharing your thoughts with other people, and having special interactions with the written pages, all for letting and helping people to express their feelings and finally relive their burdens.
+
+It is important to clarify that the proposal is a complementary activity that is not replacing a professional therapy or counseling service.
+
+### Problematic
+
+Mental health problems due to social isolation, as a consequence of the COVID-19 pandemic.
 
 ### Target users
-The target from this proyect are college students with a deteriortion in their academic performances due to emotional exhaustion or stress.
-As for solutions, there are quite a lot of solutions, writing your experiences and organizing your ideas can detect whats causing their problems, music is a great way of relaxation, painting is a way you can express yourself and your emotions through art, etc. this proyect wants to integrate all of this things in a diary app.
 
+The target from this proyect are college students with a deteriortion in their academic performances due to emotional exhaustion or stress.
 
 ### Objectives
-Although there are multiple applications that are made to tackle feelings of stress and depression like Headspace and Dare, they normally have audio guides and textual sources to read but this doesnt include a therapeutic way to ventilate about your own feelings by writing or drawing and on the market there are certain cons that can propose a problem which is Not to be completly informed on these subjects, this app wants to overcome this problems so people have a better way of letting go of their feelings to make them feel better and have a good response on the people in a therapeutic way.
 
-
-
-With all this in mind, this proyect wants to aim for a solution for all this many problems people tent to have in this times, not just because of the pandemic but because of its consequences, people expect a solution for their social isolation and psychological problems, they want to feel better and move on on their lives an sometimes is not easy for people to open up and talk about their problems with other people, they keep it private for themselves but at the same time they want to feel better anyway, this diary we think its a good solution to achieve this, one were people can express themselves anytime they want, everywhere they can.
+Although there are multiple applications that are made to tackle feelings of stress and depression like Headspace and Dare, they normally have audio guides and textual sources to read but this does not include a therapeutic way to ventilate about your own feelings by writing or drawing, and on the market there are certain cons that can propose a problem which is not to be completely informed on these subjects, this application wants to overcome these problems so people can have a better way of letting go their negative feelings to make them feel better and have a good response on the people in a therapeutic way.
 
 ## Personas
-For this proyect we are aiming for people with social isolation problems with the pandemic but more efficiently were aiming for college students since they are a group of people with probably one of the most affected if not the most one, so we need different attributes that will help us discovered a more effective solution for our problematic, so we need to keep in mind what exactly we need to know:
+
+For this project we are using the Personas method to get to know more closely our target public, so, keeping that in mind, we specially need solve the following questions:
 
 - What do we expect for a solution?
 - When and how would they like to use a solution?
 - How much important is privacy for them?
+
 ### Desired attributes
 
 #### Persona's Biographic Background
-First we need to know about the persona's backstory, how they are and what they do and its online usage so attributes like this are what we need
+
+First, we need to know about the persona's backstory, how they are, what they do, and their online usage, so these are the attributes that we selected:
 
 - Age
 - Education
@@ -53,28 +66,34 @@ First we need to know about the persona's backstory, how they are and what they 
 - Type of usage
 
 #### Specific Goals/Needs/Attitudes
-People want to achieve something in their lives and as for technology, people have different ways to work with it as well as how they act with it so we need this attributes:
+
+People want to achieve something in their lives, and as for technology, people have different ways to work with it as well as how they act with it, so we need these attributes:
 
 - Frustrations
 - Attitude towards technology used
-- How is value defined
+- How is value defined?
 
 #### Context of Usage
-People's ways to use the technology varies from others and its personalities, attitudes and environment can affect that on how they use technology:
+
+People's ways to use the technology varies from others and their personalities, attitudes and environment can affect that on how they use technology:
 
 - Surrounding environment
 - Confidentiality/Privacy
 - Satisfaction
 
 #### Interaction Characteristics of Usage
+
 We need to know the times people use technology:
+
 - Frequency of use
 
 #### Sensory/Immersive Characteristics of Usage
+
 We also need attributes that can relate on what sort of thoughs people feel about technology:
 
 - Mood/Feeling
 - Pleasurable
+
 ### Research methods
 
 #### Interview with experts
@@ -92,21 +111,32 @@ We also need attributes that can relate on what sort of thoughs people feel abou
 ## Requirements definition
 
 ### Non-functional
-#### Avaliability:
-- People can use the diary whenever need to so it needs to be avaliable at all times
-#### Portable:
-- The diary app should be accesible in different systems.
-#### Scalability:
-- The diary should progress with information and updates as time goes on.
-#### Usability: 
-- People should use the diary to relieve stress which is recommended to be used once a day at least.
-#### Security:
-- As it is a diary, people should have what they write or do with the diary as private as possible for only them to insert their experiences.
-- The user can share their pages if they allow it to. 
-#### Flexibility:
-- The diary needs to be flexible at the time new requirements are input on the App.
-#### Speed: 
-- The time of response on any of the functions on the app shouldn't take long.
 
+#### Avaliability:
+
+- People can use the diary whenever need to, so it needs to be always available.
+
+#### Portable:
+
+- The application should be accessible in different operating systems, such as Android and iOS.
+
+#### Scalability:
+
+- The application should have updates at least once per month.
+
+#### Usability:
+
+- People must be able to understand how to use the application by intuition, they are not supposed to spend more than 20 seconds to find where to access to any of the most representative features, starting in the principal menu, during their first-time use.
+
+#### Security:
+
+- Only the user can access to their recorded experiences.
+- The information must always be encrypted, to guarantee the privacy of the user.
+- The user can share their pages if they want to.
+
+#### Efficiency:
+
+- The application should have a size smaller than 100 MB.
+- The time of response on any of the functionalities on the application, excluding a saving process, should not take more than 1 second.
 
 > [👈 Go back.](./index.md)
