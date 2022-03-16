@@ -6,6 +6,9 @@
   - [Functional](#functional)
   - [Non-functional](#non-functional)
   - [Use case diagrams](#use-case-diagrams)
+    - [Use case #1](#use-case-1)
+    - [Use case #2](#use-case-2)
+    - [Use case #3](#use-case-3)
 
 ## Requirements definition
 
@@ -43,6 +46,16 @@
 - The time of response on any of the functionalities on the application, excluding a saving process, should not take more than 1 second.
 
 ### Use case diagrams
+
+#### Use case #1
+
+...
+
+#### Use case #2
+
+...
+
+#### Use case #3
 
 ...
 
