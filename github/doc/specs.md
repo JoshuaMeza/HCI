@@ -227,7 +227,8 @@ This survey is aimed for current university students
 
 ### Results
 
-Thanks to the survey now we can solve the required attributes  
+#### Analysis Method  
+To analyze the results of the survey, we applied mode, also known as the most frequent value.  In this context, the most frequent answers of each question given are what we use to deduct the required attributes.
 
 - What do they expect from a solution?  
 The users expect that the solution helps their users in a meaningful way. Users indicate functionality, security, privacy, ease of use, and efficiency as their top 5 expectations.
