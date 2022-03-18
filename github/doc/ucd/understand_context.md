@@ -236,44 +236,65 @@ In the following section we declare the relation of the questions inside the sur
 
 ### Scenario #1
 
-- Title: ...
-- Task: ...
+- Title: Bad habits
+- Task: The student has developed bad eating habits due the pandemic, and is searching for a solution that helps them change those bad habits for good ones, but doesn't know where or how to find it except for looking with their mobile device.
 - Method:
 
 <!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
 
 - Execution path:
-  1. Step  
-     Description...
-  2. Step  
-     Description...
+  1. User browses the internet  
+     The user browses the internet looking for solutions that could help them change those bad habits..
+  2. User finds articles, advertisements and more
+     The user finds articles about mental health and helpful information in how to change those bad habits, but they want something more personal.
+  3. User finds out about therapeutic applications
+     The user finds information on the internet about therapeutic applications and reviews about how they actually work.
+  4. User browses their application store of choice
+     The user browses their application store of choice using keywords that return results of therapeutic applications.
+  5. User decides to install an app
+     The user takes time to look at each result and selects the one that better matches their criteria.
 
 ### Scenario #2
 
-- Title: ...
-- Task: ...
+- Title: Recommended by
+- Task: College student already goes to therapy, but they cannot see the therapist more regularly.
 - Method:
 
 <!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
 
 - Execution path:
-  1. Step  
-     Description...
-  2. Step  
-     Description...
-
+  1. User brings out the problem about not being able to get therapy more regularly.
+     The user tells their therapist about the problem where they cannot see each other more regularly.
+  2. Therapist recommends the user about therapeutic applications
+     The therapist tells the user that they can use therapeutic applications whenever they need it as not to have dead-time in between sessions.
+  3. User agrees to look them up
+     The user is interested in the idea and agrees to look them up.
+  4. User browses their application store of choice
+     The user browses their application store of choice using keywords that return results of therapeutic applications.
+  5. User decides to install an app
+     The user takes time to look at each result and selects the one that better matches their criteria.
+     
 ### Scenario #3
 
-- Title: ...
-- Task: ...
+- Title: Big Data
+- Task: College student is browsing normally the web and finds out about therapeutic apps thanks to their recent searches across multiple websites.
 - Method:
 
 <!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
 
 - Execution path:
-  1. Step  
-     Description...
-  2. Step  
-     Description...
-
+  1. User is browsing normally the web
+     User is browsing normally the web, utilizing their mobile device to either entertain themselves or to do homework
+  2. Advertisements appear
+     User is prompted and advertisement, video or link, where therapeutic apps are showcased.
+  3. The user knows
+     The user knows that they have been searching for therapy online but could not afford or find one that matches their criteria, so they decide to put attention for a minute to the advertisement.
+  4. User agrees to look them up
+     The user is interested in the idea and agrees to look them up.
+  5. User browses their application store of choice
+     The user browses their application store of choice using keywords that return results of therapeutic applications.
+  6. User decides to install an app
+     The user takes time to look at each result and selects the one that better matches their criteria.
+     
+     
 > [👈 Go back.](../specs.md)
