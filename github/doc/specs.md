@@ -49,55 +49,55 @@
 For data recollection we ran a survey. This survey can be found at: https://forms.gle/2poaXFQafX54xezw8  
 The survey consists of 18 questions, 7 of which are open-ended questions, 10 are closed and 1 is hybrid.  
 The questions are the following:  
-- 1. ¿Cuántos años tienes? 
-- 2. ¿Cómo te ha afectado emocionalmente el distanciamiento social ocasionado por la pandemia? 
-- 3. ¿Ha vivido alguna situación que le haya resultado especialmente frustrante o estresante durante el aislamiento social de la pandemia? Por favor, describa a su criterio cuáles han sido dichas ocasiones. 
-- 4. Durante este tiempo, ¿has llegado a intentar alguna de las siguientes estrategias como método para desestresarte? Si ninguna coincide con tus experiencias o te gustaría comentar alguna otra, siéntete libre de añadir una nueva opción. 
-- 5. En el supuesto caso de llegar a vivir o haber atravesado una situación muy complicada a nivel personal o emocional, ¿llegarías a considerar asistir a terapia o consultoría con algún experto del área de la salud mental para recibir ayuda? 
-- 6. ¿Por qué decidiste o no asistir a terapia? (Problemas económicos, falta de confianza, otros) Comparte tu opinión si es posible. 
-- 7. ¿Se considera una persona que utiliza con frecuencia su dispositivo móvil? 
-- 8. ¿Para qué usa normalmente su dispositivo móvil? 
-- 9. ¿Qué considera invaluable al emplear una aplicación o servicio en línea? 
-- 10. ¿Alguna vez has empleado alguna aplicación o servicio en línea diseñado para ayudar a las personas a sentirse mejor emocionalmente? Por favor, responda si lo ha hecho y, en caso afirmativo, agradeceríamos que nos cuente su experiencia usándola (sea positiva o negativa). 
-- 11. ¿Considera que las aplicaciones o servicios en línea anteriormente mencionados proporcionan algún tipo de ayuda real a sus usuarios? 
-- 12. ¿Por qué considera lo anterior? 
-- 13. ¿Usted le llegaría a dar una oportunidad a una aplicación de ese estilo? 
-- 14. ¿Qué debería tener una aplicación o servicio de este estilo para que te sea de lo más agradable de usar? 
-- 15. ¿Dónde se sentiría más cómodo(a) empleando una aplicación de ese estilo? 
-- 16. ¿Qué tan seguido emplearía una aplicación o servicio en línea de ese estilo? Las siguientes cantidades de tiempo están pensadas para ser por día. 
-- 17. ¿Cuáles son las consideraciones más importantes de privacidad que te gustaría que una aplicación de ese estilo emplee? 
-- 18. Si tienes alguna sugerencia para el proyecto, se agradecería mucho. 
+- 1. How old are you?
+- 2. How has the social distancing caused by the pandemic affected you emotionally?
+- 3. Have you experienced any situation that has been especially frustrating or stressful for you during the social isolation of the pandemic? Please, describe in your opinion what those occasions have been.
+- 4. During this time, have you ever tried any of the following strategies as a method of de-stressing? If none match your experiences or you would like to comment on another, feel free to add a new option.
+- 5. In the supposed case of getting to live or having gone through a very complicated situation on a personal or emotional level, Would you ever consider attending therapy or consulting with an expert in the area of mental health to receive help?
+- 6. Why did you decide or not to attend therapy? (Economic problems, lack of trust, others) Share your opinion if possible.
+- 7. Do you consider yourself a person who frequently uses your mobile device?
+- 8. What do you normally use your mobile device for?
+- 9. What do you find invaluable when using an online application or service?
+- 10. Have you ever used an app or online service designed to help people feel better emotionally? Please reply if you have, and if so, we would appreciate hearing about your experience using it (whether positive or negative).
+- 11. Do you consider that the aforementioned applications or online services provide any kind of real help to their users?
+- 12. Why do you consider the above?
+- 13. Would you give an application like this a chance?
+- 14. What should an application or service of this style have to make it the most pleasant to use?
+- 15. Where would you feel more comfortable using such an application?
+- 16. How often would you use such an app or online service? The following amounts of time are intended to be per day.
+- 17. What are the most important privacy considerations you would like such an app to employ?
+- 18. If you have any suggestions for the project, it would be greatly appreciated.
 
 In this next section we declare the relation of these aforementioned questions inside the survey with the attributes to obtain, as well as other useful things to have in mind.
 
 - What do they expect from a solution?
 
-- - ¿Considera que las aplicaciones o servicios en línea anteriormente mencionados proporcionan algún tipo de ayuda real a sus usuarios?
+- - Do you consider that the aforementioned applications or online services provide any kind of real help to their users?
 - - - Unconciously, the user expects that the solution helps in a meaningful way their users
 
-- - ¿Qué debería tener una aplicación o servicio de este estilo para que te sea de lo más agradable de usar?
+- - What should an application or service of this style have to make it the most pleasant to use?
 - - - Unconciously, the user expects that the solution includes the expected desirable qualities
 
 - When and how would they like to use the solution?
 
-- - ¿Se considera una persona que utiliza con frecuencia su dispositivo móvil?
+- - Do you consider yourself a person who frequently uses your mobile device?
 - - - If the user uses their mobile device with great frequency, they expect that the solution is available for it.
 
-- - ¿Dónde se sentiría más cómodo(a) empleando una aplicación de ese estilo? 
+- - Where would you feel more comfortable using such an application?
 
 - How much important is privacy for them?
 
-- - ¿Qué debería tener una aplicación o servicio de este estilo para que te sea de lo más agradable de usar? 
+- - What should an application or service of this style have to make it the most pleasant to use?
 - - - The user can choose if privacy is valuable for them.
 
-- - ¿Dónde se sentiría más cómodo(a) empleando una aplicación de ese estilo?
+- - Where would you feel more comfortable using such an application?
 - - - Depending on the answer, we can imply that if the user chooses a private place rather than a public one, that they value privacy.
 
-- - ¿Cuáles son las consideraciones más importantes de privacidad que te gustaría que una aplicación de ese estilo emplee? 
+- - What are the most important privacy considerations you would like such an app to employ?
 
 - Age
 
-- - ¿Cuántos años tienes? 
+- - How old are you?
 
 - Education
 
@@ -105,125 +105,125 @@ This survey is aimed for current university students
 
 - Attitudes
 
-- - ¿Cómo te ha afectado emocionalmente el distanciamiento social ocasionado por la pandemia?
+- - How has the social distancing caused by the pandemic affected you emotionally?
 - - - This question could tell us about the user's attitude towards their current situation
 
-- - Ha vivido alguna situación que le haya resultado especialmente frustrante o estresante durante el aislamiento social de la pandemia? Por favor, describa a su criterio cuáles han sido dichas ocasiones. 
+- - Have you experienced any situation that has been especially frustrating or stressful for you during the social isolation of the pandemic? Please, describe in your opinion what those occasions have been.
 - - - This question could tell us about the user's attitude towards their current situation and other external factors related to it
 
-- - Durante este tiempo, ¿has llegado a intentar alguna de las siguientes estrategias como método para desestresarte? Si ninguna coincide con tus experiencias o te gustaría comentar alguna otra, siéntete libre de añadir una nueva opción
+- - During this time, have you ever tried any of the following strategies as a method of de-stressing? If none match your experiences or you would like to comment on another, feel free to add a new option.
 - - - This question could tell us about the user's attitude towards searching for a solution on their own.
 
-- - En el supuesto caso de llegar a vivir o haber atravesado una situación muy complicada a nivel personal o emocional, ¿llegarías a considerar asistir a terapia o consultoría con algún experto del área de la salud mental para recibir ayuda?
+- - In the supposed case of living through or having gone through a very complicated situation on a personal or emotional level, would you consider attending therapy or consulting with an expert in the area of ​​mental health to receive help?
 - - - This question could tell us about the user's attitude towards searching for a solution that is outside their comfort zone 
 
-- - ¿Por qué decidiste o no asistir a terapia? (Problemas económicos, falta de confianza, otros) Comparte tu opinión si es posible.
+- - Why did you decide or not to attend therapy? (Financial problems, lack of trust, others) Share your opinion if possible.
 - - - This question could tell us about the users attitude towards their current situation, their willingness to search for a solution of their own that is outside their comfort zone and the reasons why they gave up to it.
 
-- - ¿Se considera una persona que utiliza con frecuencia su dispositivo móvil? 
+- - Do you consider yourself a person who frequently uses your mobile device?
 - - - Depending on the answer, this question could tell us about the attitude of the user towards their current situation
 
-- - ¿Para qué usa normalmente su dispositivo móvil?
+- - What do you normally use your mobile device for?
 - - - Depending on the answer, this question could tell us about the attitude of the user towards their current situation 
 
 - Tenure of online usage 
 
-- - ¿Se considera una persona que utiliza con frecuencia su dispositivo móvil? 
-- - ¿Qué tan seguido emplearía una aplicación o servicio en línea de ese estilo? Las siguientes cantidades de tiempo están pensadas para ser por día. 
+- - Do you consider yourself a person who frequently uses your mobile device?
+- - How often would you use such an app or online service? The following amounts of time are intended to be per day.
 
 - Type of usage
 
-- - ¿Para qué usa normalmente su dispositivo móvil? 
-- - ¿Alguna vez has empleado alguna aplicación o servicio en línea diseñado para ayudar a las personas a sentirse mejor emocionalmente? Por favor, responda si lo ha hecho y, en caso afirmativo, agradeceríamos que nos cuente su experiencia usándola (sea positiva o negativa). 
+- - What do you normally use your mobile device for?
+- - Have you ever used an app or online service designed to help people feel better emotionally? Please reply if you have, and if so, we would appreciate hearing about your experience using it (whether positive or negative).
 
 - Frustrations
 
-- - ¿Cómo te ha afectado emocionalmente el distanciamiento social ocasionado por la pandemia? 
-- - ¿Ha vivido alguna situación que le haya resultado especialmente frustrante o estresante durante el aislamiento social de la pandemia? Por favor, describa a su criterio cuáles han sido dichas ocasiones. 
-- - ¿Por qué decidiste o no asistir a terapia? (Problemas económicos, falta de confianza, otros) Comparte tu opinión si es posible. 
-- - ¿Alguna vez has empleado alguna aplicación o servicio en línea diseñado para ayudar a las personas a sentirse mejor emocionalmente? Por favor, responda si lo ha hecho y, en caso afirmativo, agradeceríamos que nos cuente su experiencia usándola (sea positiva o negativa). 
-- - ¿Considera que las aplicaciones o servicios en línea anteriormente mencionados proporcionan algún tipo de ayuda real a sus usuarios? 
-- - ¿Por qué considera lo anterior? 
-- - ¿Qué debería tener una aplicación o servicio de este estilo para que te sea de lo más agradable de usar? 
+- - How has the social distancing caused by the pandemic affected you emotionally?
+- - Have you experienced any situation that has been especially frustrating or stressful for you during the social isolation of the pandemic? Please, describe in your opinion what those occasions have been.
+- - Why did you decide or not to attend therapy? (Financial problems, lack of trust, others) Share your opinion if possible.
+- - Have you ever used an app or online service designed to help people feel better emotionally? Please reply if you have, and if so, we would appreciate hearing about your experience using it (whether positive or negative).
+- - Do you consider that the aforementioned applications or online services provide any kind of real help to their users?
+- - Why do you consider the above?
+- - What should an application or service of this style have to make it the most pleasant to use?
 - - - The opposite of the answers are factors to frustrate the users.
 
 - Attitude toward technology used
 
-- - ¿Se considera una persona que utiliza con frecuencia su dispositivo móvil? 
-- - ¿Para qué usa normalmente su dispositivo móvil? 
-- - ¿Alguna vez has empleado alguna aplicación o servicio en línea diseñado para ayudar a las personas a sentirse mejor emocionalmente? Por favor, responda si lo ha hecho y, en caso afirmativo, agradeceríamos que nos cuente su experiencia usándola (sea positiva o negativa).
+- - Do you consider yourself a person who frequently uses your mobile device?
+- - What do you normally use your mobile device for?
+- - Have you ever used an app or online service designed to help people feel better emotionally? Please reply if you have, and if so, we would appreciate hearing about your experience using it (whether positive or negative).
 - - - A positive answer shows a positive attitude towards the technology
-- - ¿Usted le llegaría a dar una oportunidad a una aplicación de ese estilo? 
-- - ¿Qué tan seguido emplearía una aplicación o servicio en línea de ese estilo? Las siguientes cantidades de tiempo están pensadas para ser por día. 
+- - Would you give an application like this a chance?
+- - How often would you use such an app or online service? The following amounts of time are intended to be per day.
 
 - How is value defined?
 
-- - ¿Por qué decidiste o no asistir a terapia? (Problemas económicos, falta de confianza, otros) Comparte tu opinión si es posible.
+- - Why did you decide or not to attend therapy? (Financial problems, lack of trust, others) Share your opinion if possible.
 - - - Depending on the answer we can extract the value for the user.
-- - ¿Qué considera invaluable al emplear una aplicación o servicio en línea?
-- - ¿Usted le llegaría a dar una oportunidad a una aplicación de ese estilo?
+- - What do you find invaluable when using an online application or service?
+- - Would you give an application like this a chance?
 - - - If the answer is negative, we can imply that the user considers their time valuable.
-- - ¿Qué debería tener una aplicación o servicio de este estilo para que te sea de lo más agradable de usar? 
-- - ¿Cuáles son las consideraciones más importantes de privacidad que te gustaría que una aplicación de ese estilo emplee?
+- - What should an application or service of this style have to make it the most pleasant to use?
+- - What are the most important privacy considerations you would like such an app to employ?
 
 - Context of usage: Surrounding environment
 
-- - ¿Dónde se sentiría más cómodo(a) empleando una aplicación de ese estilo? 
-- - ¿Se considera una persona que utiliza con frecuencia su dispositivo móvil?
+- - Where would you feel more comfortable using such an application?
+- - Do you consider yourself a person who frequently uses your mobile device?
 - - - In case the answer says high frequency of use, depending on the context, the convenience, the trust and other factors, the user can use the solution in other environments
 
 - Context of usage: Confidentiality/privacy
 
-- - ¿Por qué decidiste o no asistir a terapia? (Problemas económicos, falta de confianza, otros) Comparte tu opinión si es posible. 
-- - ¿Qué considera invaluable al emplear una aplicación o servicio en línea? 
-- - ¿Qué debería tener una aplicación o servicio de este estilo para que te sea de lo más agradable de usar? 
-- - ¿Dónde se sentiría más cómodo(a) empleando una aplicación de ese estilo? 
+- - Why did you decide or not to attend therapy? (Financial problems, lack of trust, others) Share your opinion if possible.
+- - What do you find invaluable when using an online application or service?
+- - What should an application or service of this style have to make it the most pleasant to use? 
+- - Where would you feel more comfortable using such an application?
 - - - If a private place is chosen, we consider that the confidentiality or the privacy for the user is high
-- - ¿Qué tan seguido emplearía una aplicación o servicio en línea de ese estilo? Las siguientes cantidades de tiempo están pensadas para ser por día.
+- - How often would you use such an app or online service? The following amounts of time are intended to be per day.
 - - - A very low frequency of use could indicate low trust, meaning that the users confidentiality is high
-- - ¿Cuáles son las consideraciones más importantes de privacidad que te gustaría que una aplicación de ese estilo emplee? 
+- - What are the most important privacy considerations you would like such an app to employ?
 
 - Context of usage: Satisfaction
 
-- - ¿Por qué decidiste o no asistir a terapia? (Problemas económicos, falta de confianza, otros) Comparte tu opinión si es posible.
+- - Why did you decide or not to attend therapy? (Financial problems, lack of trust, others) Share your opinion if possible.
 - - - Depending on the answer we can know whether the user has tried alternative solutions thanks to current satisfaction.
-- - ¿Qué considera invaluable al emplear una aplicación o servicio en línea? 
-- - ¿Para qué usa normalmente su dispositivo móvil?
+- - What do you find invaluable when using an online application or service?
+- - What do you normally use your mobile device for?
 - - - Then the solution can mimic the types of apps the user normally uses so that they do not have to adapt to new things, and only focus on the content.
-- - ¿Alguna vez has empleado alguna aplicación o servicio en línea diseñado para ayudar a las personas a sentirse mejor emocionalmente? Por favor, responda si lo ha hecho y, en caso afirmativo, agradeceríamos que nos cuente su experiencia usándola (sea positiva o negativa). 
-- - ¿Considera que las aplicaciones o servicios en línea anteriormente mencionados proporcionan algún tipo de ayuda real a sus usuarios? 
-- - ¿Por qué considera lo anterior?
-- - ¿Qué debería tener una aplicación o servicio de este estilo para que te sea de lo más agradable de usar? 
-- - ¿Qué tan seguido emplearía una aplicación o servicio en línea de ese estilo? Las siguientes cantidades de tiempo están pensadas para ser por día. 
+- - Have you ever used an app or online service designed to help people feel better emotionally? Please reply if you have, and if so, we would appreciate hearing about your experience using it (whether positive or negative).
+- - Do you consider that the aforementioned applications or online services provide any kind of real help to their users?
+- - Why do you consider the above?
+- - What should an application or service of this style have to make it the most pleasant to use?
+- - How often would you use such an app or online service? The following amounts of time are intended to be per day.
 - - - If the frequency of use is high, there is a predisposition to satisfaction
-- - Si tienes alguna sugerencia para el proyecto, se agradecería mucho.  
+- - If you have any suggestions for the project, it would be greatly appreciated.
 
 - Interaction Characteristics of Usage: Frecuency of use 
 
-- - ¿Se considera una persona que utiliza con frecuencia su dispositivo móvil? 
-- - ¿Qué tan seguido emplearía una aplicación o servicio en línea de ese estilo? Las siguientes cantidades de tiempo están pensadas para ser por día. 
+- - Do you consider yourself a person who frequently uses your mobile device?
+- - How often would you use such an app or online service? The following amounts of time are intended to be per day.
 
 - Sensory/Immersive Characteristics of Use: Mood/Feeling 
 
-- - ¿Cómo te ha afectado emocionalmente el distanciamiento social ocasionado por la pandemia? 
+- - How has the social distancing caused by the pandemic affected you emotionally?
 - - - Could present predisposition thanks to the current situation
-- - ¿Ha vivido alguna situación que le haya resultado especialmente frustrante o estresante durante el aislamiento social de la pandemia? Por favor, describa a su criterio cuáles han sido dichas ocasiones.
+- - Have you experienced any situation that has been especially frustrating or stressful for you during the social isolation of the pandemic? Please, describe in your opinion what those occasions have been.
 - - - Could present predisposition thanks to the current situation
-- - ¿Por qué decidiste o no asistir a terapia? (Problemas económicos, falta de confianza, otros) Comparte tu opinión si es posible. 
+- - Why did you decide or not to attend therapy? (Financial problems, lack of trust, others) Share your opinion if possible.
 - - - Could present predisposition thanks to past experiences
-- - ¿Alguna vez has empleado alguna aplicación o servicio en línea diseñado para ayudar a las personas a sentirse mejor emocionalmente? Por favor, responda si lo ha hecho y, en caso afirmativo, agradeceríamos que nos cuente su experiencia usándola (sea positiva o negativa).
+- - Have you ever used an app or online service designed to help people feel better emotionally? Please reply if you have, and if so, we would appreciate hearing about your experience using it (whether positive or negative).
 - - - Could present predisposition thanks to past experiences
-- - ¿Considera que las aplicaciones o servicios en línea anteriormente mencionados proporcionan algún tipo de ayuda real a sus usuarios?
-- - ¿Por qué considera lo anterior?
-- - ¿Usted le llegaría a dar una oportunidad a una aplicación de ese estilo?
+- - Do you consider that the aforementioned applications or online services provide any kind of real help to their users?
+- - Why do you consider the above?
+- - Would you give an application like this a chance?
 - - - If the answer is positive, it could indicate predisposition to satisfaction
-- - ¿Qué debería tener una aplicación o servicio de este estilo para que te sea de lo más agradable de usar?
+- - What should an application or service of this style have to make it the most pleasant to use?
 - - - The opposite of the factors chosen could put the user in a bad mood
 
 - Sensory/Immersive Characteristics of Use: Pleasurable
-- - Durante este tiempo, ¿has llegado a intentar alguna de las siguientes estrategias como método para desestresarte? Si ninguna coincide con tus experiencias o te gustaría comentar alguna otra, siéntete libre de añadir una nueva opción. 
-- - ¿Qué considera invaluable al emplear una aplicación o servicio en línea? 
-- - ¿Qué debería tener una aplicación o servicio de este estilo para que te sea de lo más agradable de usar? 
+- - During this time, have you ever tried any of the following strategies as a method of de-stressing? If none match your experiences or you would like to comment on another, feel free to add a new option.
+- - What do you find invaluable when using an online application or service?
+- - What should an application or service of this style have to make it the most pleasant to use?
 
 ### Results
 
