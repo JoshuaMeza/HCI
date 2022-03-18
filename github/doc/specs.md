@@ -92,8 +92,25 @@ We also need attributes that can relate on what sort of thoughs people feel abou
 ## Requirements definition
 ### Functional
 
-#### Menu:
-The application should have a home menu where the user can locate the various options that it can use like creating new entries, delete them, share them on other platforms, etc.
+#### RF1: 
+- The application should have a home menu where the user can locate various options 
+where he can choose different activities to relieve its stress levels, share content, eliminate entries, etc.
+
+#### RF2: 
+- The system provides the user with activities that help reduce their stress level.
+
+#### RF3:
+- The system should provide the user notifications for the new updates, new activities and information of mental health.
+
+#### RF4:
+- The system provides information necessary for good mental health care. 
+
+#### RF5:
+- The application should be compatible with newer version of the different systems that are made available in the future.
+
+#### RF6:
+- The information entered by users in the application must be completely confidencial. 
+
 ### Non-functional
 #### Avaliability:
 - People can use the diary whenever need to so it needs to be avaliable at all times
