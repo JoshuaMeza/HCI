@@ -90,7 +90,10 @@ We also need attributes that can relate on what sort of thoughs people feel abou
 [Final persona]
 
 ## Requirements definition
+### Functional
 
+#### Menu:
+The application should have a home menu where the user can locate the various options that it can use like creating new entries, delete them, share them on other platforms, etc.
 ### Non-functional
 #### Avaliability:
 - People can use the diary whenever need to so it needs to be avaliable at all times
