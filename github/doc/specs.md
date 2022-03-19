@@ -93,23 +93,35 @@ We also need attributes that can relate on what sort of thoughs people feel abou
 ### Functional
 
 #### RF1: 
-- The application should have a home menu where the user can locate various options 
-where he can choose different activities to relieve its stress levels, share content, eliminate entries, etc.
-
-#### RF2: 
 - The system provides the user with activities that help reduce their stress level.
 
+#### RF2: 
+- The system provides information necessary for good mental health care.
+
 #### RF3:
-- The system should provide the user notifications for the new updates, new activities and information of mental health.
+- The system provides information on the importance of a healthy diet in the treatment of this type of disease
 
 #### RF4:
-- The system provides information necessary for good mental health care. 
+- The information entered by users in the application must be completely confidencial. 
 
 #### RF5:
-- The application should be compatible with newer version of the different systems that are made available in the future.
+- The system will mention at all times that it is not an application to replace psychological therapy.
 
 #### RF6:
-- The information entered by users in the application must be completely confidencial. 
+- The system will control access and allow it only to authorized users. Users must log in to the system with a username and password.
+
+#### RF7:
+- The system should have an historial of past activities for the user to reflect their mental state or if needed eliminate it.
+
+#### RF8: 
+-The system should provide the user notifications for the new updates, new activities and information of mental health.
+
+#### RF9:
+- The application should have a home menu where the user can locate various options where he can choose different activities to relieve its stress levels, share content, eliminate entries, etc.
+
+#### RF10:  
+- The application should be compatible with newer versions of the different systems that are made available in the future.
+
 
 ### Non-functional
 #### Avaliability:
