@@ -138,6 +138,52 @@ We also need attributes that can relate on what sort of thoughs people feel abou
 #### RFN11:
 - The time of response on any of the functionalities on the application, excluding a saving process, should not take more than 1 second.
 
+## Important Case Use Models
+### Activities
+|        | Selection of Activities                                | 
+| :----: | :----------------------------------------------------- | 
+| **Dependencies**  | •	RF – 05 Annotations about user experiences or emotions |
+|               | •	RF – 06 History of activities carried out |
+|               | •	RF – 07 Share content |
+| **Precondition** | The user has entered the system through his username and password and has decided to perform an activity.|
+| **Description** | The system will provide the user with a series of activities that they can choose to de-stress or distract themselves. |
+| **Normal Sequence**  |  **Action** |
+|    **1** |   The system displays the activities that are available   |
+|    **2** |   The system displays a brief description of the activity |
+|    **3** |   The user confirms the activity to be performed   |    
+|    **4** |   The system loads the activity  |
+|    **5** |   The user can now interact with the elements of the activity |
+| **Postcondition** | The user performs the activity I select, and the system saves the progress of the activity.|
 
+### Information
+|        | Mental Health Care Information | 
+| :----: | :----------------------------------------------------- | 
+| **Dependencies**  | 	RF – 04 reminder that the app does not replace traditional therapy  |
+|               | •	RF – 07 Share content |
+| **Precondition** | The user has entered the system through his username and password and wants to consult information about mental health. |
+| **Description** | The system will provide different tips, notes or information related to the topic of mental health. |
+| **Normal Sequence**  |  **Action** |
+|    **1** |   The system displays a menu of options    |
+|    **2** |   The user goes to the information section |
+|    **3** |  The user selects the note that attracts the most attention    |    
+|    **4** |  The system loads the selected item   |
+| **Postcondition** |The user can now read the selected information. |
+
+### Security
+|        | Security & Privacy                            | 
+| :----: | :----------------------------------------------------- | 
+| **Dependencies**  | RNF – 01 Information entered by users must be confidential |
+|               | • RNF – 07 Only the user can access their recorded experiences |
+|               | • RNF - 08  Information must be encrypted |
+|               | • RF - 09 The system can be accessed by authorized users |
+| **Precondition** | The user has performed multiple activities on the system, placing experiences and sensitive information. |
+| **Description** | The system will save the information in a database to which only the user will have access. |
+| **Normal Sequence**  |  **Action** |
+|    **1** |   The user performs some of the activities    |
+|    **2** |   The system analyzes the information entered by the user |
+|    **3** |   The system encrypts the information  |    
+|    **4** |   The system saves the information in a database  |
+|    **5** |   The user accesses this information only if he enters his username and password |
+| **Postcondition** |The user can consult the annotations he has made previously without the concern that his data can be exposed if he does not wish.|
 
 > [👈 Go back.](./index.md)
