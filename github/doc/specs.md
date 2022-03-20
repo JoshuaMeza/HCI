@@ -36,7 +36,22 @@ Although there are multiple applications that are made to tackle feelings of str
 
 ### Feasibility
 
-...
+#### Innovation
+
+There are multiple applications that are made to tackle the feelings of stress and depression like Headspace and Dare.
+Typically, those applications only include audio guides and textual sources to read from. but they don't include a therapeutic way to ventilate about your problems by writing, drawing and listening to relaxing music (and more) while you're doing it.
+You don't really get to take out any of the feelings you're going through, which is beneficial for helping overcome them. You can't feel better until you ventilate about what you're going through.
+All these things combined offer a different experience than those already included in the already-existing applications on the market.
+
+#### Motivation
+
+From what we have in the market there are some certain cons that can propose a problem, like not being completely informed on these subjects or not proposing a good solution that can benefact the people.
+It is a fact that not letting go of the feelings you keep inside would aggravate people situations even more like a snowball effect, this solution offers a more useful vision of what could cause this negative feelings as well as helping people feel more relaxed and less stressful in their lives.
+
+#### Relevance
+
+Mental health problems have unfortunately become frequent ailments, the pandemic and the drastic change in social life have led to this situation. Many people still stigmatize depression and think that it is not a big deal, downplays it and sometimes makes people who experience it decide not to say anything, in addition to the fact that there is a great lack, both in the university and outside it, of organizations concerned about the situation.
+This is not a substitute for professional care, but it does offer an alternative for times when you don't have, or no one is available to you.
 
 ### Design process
 
