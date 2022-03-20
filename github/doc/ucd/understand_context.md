@@ -116,28 +116,28 @@ Our sources were the following:
 
 For data recollection, we ran an anonymous [survey](https://forms.gle/oMnGeFxq7p5ZietC9) with Google Forms, in which 23 people participated. It consisted of 18 questions, 7 of which were open questions and 11 were closed ones. The questions were the following:
 
-1. ¿Cuántos años tienes?
-2. ¿Cómo te ha afectado emocionalmente el distanciamiento social ocasionado por la pandemia?
-3. ¿Ha vivido alguna situación que le haya resultado especialmente frustrante o estresante durante el aislamiento social de la pandemia? Por favor, describa a su criterio cuáles han sido dichas ocasiones.
-4. Durante este tiempo, ¿has llegado a intentar alguna de las siguientes estrategias como método para desestresarte? Si ninguna coincide con tus experiencias o te gustaría comentar alguna otra, siéntete libre de añadir una nueva opción.
-5. En el supuesto caso de llegar a vivir o haber atravesado una situación muy complicada a nivel personal o emocional, ¿llegarías a considerar asistir a terapia o consultoría con algún experto del área de la salud mental para recibir ayuda?
-6. ¿Por qué decidiste o no asistir a terapia? (Problemas económicos, falta de confianza, otros) Comparte tu opinión si es posible.
-7. ¿Se considera una persona que utiliza con frecuencia su dispositivo móvil?
-8. ¿Para qué usa normalmente su dispositivo móvil?
-9. ¿Qué considera invaluable al emplear una aplicación o servicio en línea?
-10. ¿Alguna vez has empleado alguna aplicación o servicio en línea diseñado para ayudar a las personas a sentirse mejor emocionalmente? Por favor, responda si lo ha hecho y, en caso afirmativo, agradeceríamos que nos cuente su experiencia usándola (sea positiva o negativa).
-11. ¿Considera que las aplicaciones o servicios en línea anteriormente mencionados proporcionan algún tipo de ayuda real a sus usuarios?
-12. ¿Por qué considera lo anterior?
-13. ¿Usted le llegaría a dar una oportunidad a una aplicación de ese estilo?
+1. How old are you?
+2. How has the social distancing caused by the pandemic affected you emotionally?
+3. Have you experienced any situation that has been especially frustrating or stressful for you during the social isolation of the pandemic? Please, describe in your opinion what those occasions have been.
+4. During this time, have you ever tried any of the following strategies as a method of de-stressing? If none match your experiences or you would like to comment on another, feel free to add a new option.
+5. In the supposed case of living through or having gone through a very complicated situation on a personal or emotional level, would you consider attending therapy or consulting with an expert in the area of ​​mental health to receive help?
+6. Why did you decide or not to attend therapy? (Financial problems, lack of confidence, others) Share your opinion if possible.
+7. Do you consider yourself a person who frequently uses your mobile device?
+8. What do you normally use your mobile device for?
+9. What do you find invaluable when using an online application or service?
+10. Have you ever used an app or online service designed to help people feel better emotionally? Please reply if you have, and if so, we would appreciate hearing about your experience using it (whether positive or negative).
+11. Do you consider that the aforementioned applications or online services provide any kind of real help to their users?
+12. Why do you consider the above?
+13. Would you give an application like this a chance?
 
 - If answered with an affirmative or neutral response, then:
 
-  14. ¿Qué debería tener una aplicación o servicio de este estilo para que te sea de lo más agradable de usar?
-  15. ¿Dónde se sentiría más cómodo(a) empleando una aplicación de ese estilo?
-  16. ¿Qué tan seguido emplearía una aplicación o servicio en línea de ese estilo? Las siguientes cantidades de tiempo están pensadas para ser por día.
-  17. ¿Cuáles son las consideraciones más importantes de privacidad que te gustaría que una aplicación de ese estilo emplee?
+  14. What should an application or service of this style have to make it the most pleasant to use?
+  15. Where would you feel more comfortable using such an application?
+  16. How often would you use such an app or online service? The following amounts of time are intended to be per day.
+  17. What are the most important privacy considerations you would like such an app to employ?
 
-18. Si tienes alguna sugerencia para el proyecto, se agradecería mucho.
+18. If you have any suggestions for the project, it would be greatly appreciated.
 
 In the following section we declare the relation of the questions inside the survey with the attributes to obtain.
 
@@ -174,23 +174,22 @@ In the following section we declare the relation of the questions inside the sur
 
 ### Analysis method
 
-...
+To analyze the results of the survey, we applied mode, also known as the most frequent value. In this context, the most frequent answers of each question given are what we use to deduct the required attributes.
 
 ### Results
 
 #### Persona #1
 
 - What do they expect from a solution?  
-   The user expects that the solution helps them in a meaningful way. Also, indicates functionality, security, privacy, ease of use, and efficiency as their top 5 expectations.
-
+  The user expects that the solution helps them in a meaningful way. Also, indicates functionality, security, privacy, ease of use, and efficiency as their top 5 expectations.
 - When and how would they like to use the solution?  
-   The user indicates that they would use their mobile device and that they would like to use the solution at their own room.
+  The user indicates that they would use their mobile device and that they would like to use the solution at their own room.
 - How much important is privacy for them?  
-   Users value privacy normally. They do not wish to make public what should be private, and that they do not like data recollection unless it's with their consent and anonymous.
+  The user values privacy normally. They do not wish to make public what should be private, and that they do not like data recollection unless it's with their consent and anonymous.
 - Age  
-  A young adult of 18 years old.
+  18 years old.
 - Education  
-  A college student.
+  College student
 - Attitudes  
   They feel hit by the current situation in a meaningful way, but not overwhelmed. They are open to trying new solutions that are outside their comfort zone if it's worth their time and money, and they are generally positive about the therapeutic applications that are seeking helping their users overcome their problems.
 - Tenure of online usage  
@@ -198,8 +197,7 @@ In the following section we declare the relation of the questions inside the sur
 - Type of usage  
   They use their mobile device for entertainment/recreative purposes, browsing in the internet, communicating with other people, and doing academic-related work.
 - Frustrations  
-  The user have a wide range of frustations.
-
+  The user has a wide range of frustations.
   - Personal:
     - Economic problems
     - Unwillingess to deal with the current situation thanks to its absurdity or inability to change anything about it
@@ -220,60 +218,94 @@ In the following section we declare the relation of the questions inside the sur
 - How is value defined?  
   They value functionality, security, privacy, ease of use, and efficiency as their top 5 expectations. They also indicate that they want to be comforted as well as motivated and/or cheered up by the solution. Finally, they value a free solution which they can use the least time possible and without requiring to adapt to it.
 - Surrounding Environment  
-   The user would like to use the solution in the privacy of their own rooms.
+  The user would like to use the solution in the privacy of their own room.
 - Confidentiality/Privacy  
-   They value privacy and they want a solution that does not recollect data without their consent, and as long as it's anonymous. They want to trust the application so that it's easier for them to open up, and they want to use it in a private setting where it's only them and the solution.
+  They value privacy and they want a solution that does not recollect data without their consent, and as long as it's anonymous. They want to trust the application so that it's easier for them to open up, and they want to use it in a private setting where it's only them and the solution.
 - Satisfaction  
-   An app that is cheap or free, that is easy and fun to use, efficient, and as long as it's not collecting their data without consent, it would satisfy them.
+  An app that is cheap or free, that is easy and fun to use, efficient, and as long as it's not collecting their data without consent, would satisfy them.
 - Frequency of use  
-   The user use their mobile device more than 3 hours a day, but they are not going to use the solution for any longer than 1 hour.
+  The user uses their mobile device more than 3 hours a day, but they are not going to use the solution for any longer than 1 hour.
 - Mood/Feeling  
-   They feel deeply hit thanks to the current situation but they try not to let it get to them. Besides, they want to feel safe and comforted while also being motivated and entertained by a free, easy to use app with a fun set of activities, so that they can have a good time. They want to be distracted from their problems while also bettering themselves.
+  They feel deeply hit thanks to the current situation but they try not to let it get to them. Besides, they want to feel safe and comforted while also being motivated and entertained by a free, easy to use app with a fun set of activities, so that they can have a good time. They want to be distracted from their problems while also bettering themselves.
 - Pleasurable  
-   Ease of use and understanding as well as fun or motivating can help the users feel more compliant to keep using the app for an extended period of time and not just a one-time ocassion.
+  Ease of use and comprehensibility as well as fun or motivating can help the user feel more compliant to keep using the app for an extended period of time and not just a one-time ocassion.
 
 ## Scenarios
 
 ### Scenario #1
 
-- Title: ...
-- Task: ...
+- Title: Bad habits  
+- Task: The student has developed bad eating habits due the pandemic, and is searching for a solution that helps them change those bad habits for good ones, but doesn't know where or how to find it except for looking with their mobile device.  
 - Method:
 
 <!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
 
-- Execution path:
-  1. Step  
-     Description...
-  2. Step  
-     Description...
+- Execution path:  
+  1. User browses the internet  
+     The user browses the internet looking for solutions that could help them change those bad habits.  
+  2. User finds articles, advertisements and more  
+     The user finds articles about mental health and helpful information in how to change those bad habits, but they want something more personal.  
+  3. User finds out about therapeutic applications  
+     The user finds information on the internet about therapeutic applications and reviews about how they actually work.  
+  4. User browses their application store of choice  
+     The user browses their application store of choice using keywords that return results of therapeutic applications.  
+  5. User decides to install an app  
+     The user takes time to look at each result and selects the one that better matches their criteria.  
+  6. Using our app  
+  	 The user installs our app and they can write their experiences down to organize their ideas so that they can detect what's causing their problems.
+  7. Changing bad habits  
+  	 Now that the user knows where the problems are, they can work on bettering themselves and writing down each step of the way as well as using the other app functions to help them go through the change.
 
 ### Scenario #2
 
-- Title: ...
-- Task: ...
-- Method:
+- Title: Recommended by  
+- Task: College student already goes to therapy, but they cannot see the therapist more regularly.  
+- Method:  
 
 <!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
 
-- Execution path:
-  1. Step  
-     Description...
-  2. Step  
-     Description...
-
+- Execution path:  
+  1. User brings out the problem about not being able to get therapy more regularly.  
+     The user tells their therapist about the problem where they cannot see each other more regularly.  
+  2. Therapist recommends the user about therapeutic applications  
+     The therapist tells the user that they can use therapeutic applications whenever they need it as not to have dead-time in between sessions.  
+  3. User agrees to look them up  
+     The user is interested in the idea and agrees to look them up.  
+  4. User browses their application store of choice  
+     The user browses their application store of choice using keywords that return results of therapeutic applications.  
+  5. User decides to install an app  
+     The user takes time to look at each result and selects the one that better matches their criteria.  
+  6. Using our app  
+  	 The user installs our app and they can listen to music and paint, as well as pass the time writing down what's going on in their head meanwhile they wait for the next therapy session.
+  7. Helping real therapy  
+  	 The user can use what they wrote in the app to better explain the therapist what's going on inside their head since the thoughts are now organized and written down.
+  8. Feeling better  
+     The user can feel like there's therapeutic guidance in-between sessions and they can feel the benefit of using the app by making it easier to fight the psychological problems while they enjoy themselves.
+     
 ### Scenario #3
 
-- Title: ...
-- Task: ...
+- Title: Big Data  
+- Task: College student is browsing normally the web and finds out about therapeutic apps thanks to their recent searches across multiple websites.  
 - Method:
 
 <!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
 
-- Execution path:
-  1. Step  
-     Description...
-  2. Step  
-     Description...
+- Execution path:  
+  1. User is browsing normally the web  
+     User is browsing normally the web, utilizing their mobile device to either entertain themselves or to do homework  
+  2. Advertisements appear  
+     User is prompted and advertisement, video or link, where therapeutic apps are showcased.  
+  3. The user knows  
+     The user knows that they have been searching for therapy online but could not afford or find one that matches their criteria, so they decide to put attention for a minute to the advertisement.  
+  4. User agrees to look them up  
+     The user is interested in the idea and agrees to look them up.  
+  5. User browses their application store of choice  
+     The user browses their application store of choice using keywords that return results of therapeutic applications.  
+  6. User decides to install an app  
+     The user takes time to look at each result and selects the one that better matches their criteria.  
+  7. Using our app  
+     The user cannot afford for therapy so they will be relieved to find that our app helps them overcome the feelings of anxiety and stress by doing all the available activities inside the app daily.     
+  8. Enjoy the benefits    
+  	 The user finds out that they feel more relaxed everyday thanks to the application and that they are able to express themselves without having to spend money.
 
 > [👈 Go back.](../specs.md)
