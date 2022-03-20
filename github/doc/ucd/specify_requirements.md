@@ -6,9 +6,9 @@
   - [Functional](#functional)
   - [Non-functional](#non-functional)
   - [Use case diagrams](#use-case-diagrams)
-    - [Use case #1](#use-case-1)
-    - [Use case #2](#use-case-2)
-    - [Use case #3](#use-case-3)
+    - [Use case 1](#use-case-1)
+    - [Use case 2](#use-case-2)
+    - [Use case 3](#use-case-3)
 
 ## Requirements definition
 
@@ -38,31 +38,30 @@
 ### Non-functional
 
 #### RNF1:
-- The information entered by users in the application must be completely confidential.
+- The time of response on any of the functionalities on the application, excluding a saving process, should not take more than 1 second.
 #### RFN2:  
-- The application should be compatible with newer versions of the different systems that are made available in the future.
+- The system will not provide advice to treat mental illness
 #### RFN3:
-- People can use the diary/Application whenever need to , so it needs to be always available.
+- The information provided should only be from reliable sources or experts.
 #### RFN4:
-- The application should be accesible in different operating systems, such as Android and IOS.
+- The warning that the system is not a substitute for mental treatment will be presented during loading screens or as a note in the activity menu without spamming.
 #### RFN5:
-- The application should have updated at least once per month
+- The information entered by users in the application must be completely confidential.
 #### RFN6:
-- People must be able to understand how to use the application by intuition, they are not supposed to spend more tan 20 seconds to find where to Access to any of the most representative features, starting in the principal menú, during their first-time use.
+- The information must always be encrypted, to guarantee the privacy of the user.
+People must be able to understand how to use the application by intuition, they are not supposed to spend more tan 20 seconds to find where to Access to any of the most representative features, starting in the principal menú, during their first-time use.
 #### RFN7:
 - Only the user can Access to their recorded experiences
 #### RFN8:
-- The information must always be encrypted, to guarantee the privacy of the user.
+- The user can share their pages only if they want to. 
 #### RFN9:
-- The user can share their pages only if they want to.
+- People must be able to understand how to use the application by intuition, they are not supposed to spend more tan 20 seconds to find where to Access to any of the most representative features, starting in the principal menú, during their first-time use.
 #### RFN10:
 - The application should have a size smaller tan 100 MB.
-#### RFN11:
-- The time of response on any of the functionalities on the application, excluding a saving process, should not take more than 1 second.
 
 ### Use case diagrams
 
-#### Use case #1
+#### Use case 1
 
 #### Activities
 |        | Selection of Activities                                | 
@@ -83,7 +82,7 @@
 ![Diagram picture](https://github.com/JoshuaMeza/HCI/blob/AlejandroCauich/github/img/Mental%20Health%20App%20Diagram%201.jpeg)
 
 
-#### Use case #2
+#### Use case 2
 
 ### Information
 |        | Mental Health Care Information | 
@@ -102,7 +101,7 @@
 ![Diagram picture](https://github.com/JoshuaMeza/HCI/blob/AlejandroCauich/github/img/Mental%20Health%20App%20Diagram%202.jpeg)
 
 
-#### Use case #3
+#### Use case 3
 
 ### Security
 |        | Security & Privacy                            | 
