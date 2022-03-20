@@ -92,53 +92,52 @@ We also need attributes that can relate on what sort of thoughs people feel abou
 ## Requirements definition
 ### Functional
 
-#### RF1: 
+#### RF1:
 - The system provides the user with activities that help reduce their stress level.
-
-#### RF2: 
-- The system provides information necessary for good mental health care.
-
+#### RF2:
+- The system provides advice for taking a better care of mental health.
 #### RF3:
-- The system provides information on the importance of a healthy diet in the treatment of this type of disease
-
+- The system provides information about the relationship between having a healthy diet and keeping a good mental health.
 #### RF4:
-- The information entered by users in the application must be completely confidencial. 
-
+- The system will mention that it is not a substitute of profesional consultory or psychological therapy.
 #### RF5:
-- The system will mention at all times that it is not an application to replace psychological therapy.
-
+- The system will have an activity that allows the user to write about their experiences or emotions.
 #### RF6:
-- The system will control access and allow it only to authorized users. Users must log in to the system with a username and password.
-
+- The system will allow the user to make drawings in their annotations.
 #### RF7:
-- The system should have an historial of past activities for the user to reflect their mental state or if needed eliminate it.
-
-#### RF8: 
--The system should provide the user notifications for the new updates, new activities and information of mental health.
-
-#### RF9:
-- The application should have a home menu where the user can locate various options where he can choose different activities to relieve its stress levels, share content, eliminate entries, etc.
-
-#### RF10:  
-- The application should be compatible with newer versions of the different systems that are made available in the future.
-
+- The system will have a community section where users can share their work or experiences.
+#### RF8:
+- The system must provide the user with notifications of new updates, activities and mental health information.
+####RF9:
+- The system must control access, only allowing it to authorized users
+#### RF10:
+- The system will have relaxing music in the background.
 
 ### Non-functional
-#### Avaliability:
-- People can use the diary whenever need to so it needs to be avaliable at all times
-#### Portable:
-- The diary app should be accesible in different systems.
-#### Scalability:
-- The diary should progress with information and updates as time goes on.
-#### Usability: 
-- People should use the diary to relieve stress which is recommended to be used once a day at least.
-#### Security:
-- As it is a diary, people should have what they write or do with the diary as private as possible for only them to insert their experiences.
-- The user can share their pages if they allow it to. 
-#### Flexibility:
-- The diary needs to be flexible at the time new requirements are input on the App.
-#### Speed: 
-- The time of response on any of the functions on the app shouldn't take long.
+
+#### RNF1:
+- The information entered by users in the application must be completely confidential.
+#### RFN2:  
+- The application should be compatible with newer versions of the different systems that are made available in the future.
+#### RFN3:
+- People can use the diary/Application whenever need to , so it needs to be always available.
+#### RFN4:
+- The application should be accesible in different operating systems, such as Android and IOS.
+#### RFN5:
+- The application should have updated at least once per month
+#### RFN6:
+- People must be able to understand how to use the application by intuition, they are not supposed to spend more tan 20 seconds to find where to Access to any of the most representative features, starting in the principal menú, during their first-time use.
+#### RFN7:
+- Only the user can Access to their recorded experiences
+#### RFN8:
+- The information must always be encrypted, to guarantee the privacy of the user.
+#### RFN9:
+- The user can share their pages only if they want to.
+#### RFN10:
+- The application should have a size smaller tan 100 MB.
+#### RFN11:
+- The time of response on any of the functionalities on the application, excluding a saving process, should not take more than 1 second.
+
 
 
 > [👈 Go back.](./index.md)
