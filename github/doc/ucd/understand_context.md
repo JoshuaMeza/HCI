@@ -253,6 +253,10 @@ To analyze the results of the survey, we applied mode, also known as the most fr
      The user browses their application store of choice using keywords that return results of therapeutic applications.  
   5. User decides to install an app  
      The user takes time to look at each result and selects the one that better matches their criteria.  
+  6. Using our app  
+  	 The user installs our app and they can write their experiences down to organize their ideas so that they can detect what's causing their problems.
+  7. Changing bad habits  
+  	 Now that the user knows where the problems are, they can work on bettering themselves and writing down each step of the way as well as using the other app functions to help them go through the change.
 
 ### Scenario #2
 
@@ -273,6 +277,12 @@ To analyze the results of the survey, we applied mode, also known as the most fr
      The user browses their application store of choice using keywords that return results of therapeutic applications.  
   5. User decides to install an app  
      The user takes time to look at each result and selects the one that better matches their criteria.  
+  6. Using our app  
+  	 The user installs our app and they can listen to music and paint, as well as pass the time writing down what's going on in their head meanwhile they wait for the next therapy session.
+  7. Helping real therapy  
+  	 The user can use what they wrote in the app to better explain the therapist what's going on inside their head since the thoughts are now organized and written down.
+  8. Feeling better  
+     The user can feel like there's therapeutic guidance in-between sessions and they can feel the benefit of using the app by making it easier to fight the psychological problems while they enjoy themselves.
      
 ### Scenario #3
 
@@ -295,6 +305,10 @@ To analyze the results of the survey, we applied mode, also known as the most fr
      The user browses their application store of choice using keywords that return results of therapeutic applications.  
   6. User decides to install an app  
      The user takes time to look at each result and selects the one that better matches their criteria.  
-     
+  7. Using our app  
+     The user cannot afford for therapy so they will be relieved to find that our app helps them overcome the feelings of anxiety and stress by doing all the available activities inside the app daily.     
+  8. Enjoy the benefits    
+  	 The user finds out that they feel more relaxed everyday thanks to the application and that they are able to express themselves without having to spend money.
+   
      
 > [👈 Go back.](../specs.md)
