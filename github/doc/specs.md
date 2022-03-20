@@ -155,6 +155,8 @@ We also need attributes that can relate on what sort of thoughs people feel abou
 |    **5** |   The user can now interact with the elements of the activity |
 | **Postcondition** | The user performs the activity I select, and the system saves the progress of the activity.|
 
+![Diagram picture](https://github.com/JoshuaMeza/HCI/blob/AlejandroCauich/github/img/Mental%20Health%20App%20Diagram%201.jpeg)
+
 ### Information
 |        | Mental Health Care Information | 
 | :----: | :----------------------------------------------------- | 
@@ -168,6 +170,8 @@ We also need attributes that can relate on what sort of thoughs people feel abou
 |    **3** |  The user selects the note that attracts the most attention    |    
 |    **4** |  The system loads the selected item   |
 | **Postcondition** |The user can now read the selected information. |
+
+![Diagram picture](https://github.com/JoshuaMeza/HCI/blob/AlejandroCauich/github/img/Mental%20Health%20App%20Diagram%202.jpeg)
 
 ### Security
 |        | Security & Privacy                            | 
@@ -186,4 +190,5 @@ We also need attributes that can relate on what sort of thoughs people feel abou
 |    **5** |   The user accesses this information only if he enters his username and password |
 | **Postcondition** |The user can consult the annotations he has made previously without the concern that his data can be exposed if he does not wish.|
 
+![Diagram picture](https://github.com/JoshuaMeza/HCI/blob/AlejandroCauich/github/img/Mental%20health%20app%203.jpg)
 > [👈 Go back.](./index.md)
