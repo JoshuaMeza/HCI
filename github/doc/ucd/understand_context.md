@@ -181,12 +181,11 @@ To analyze the results of the survey, we applied mode, also known as the most fr
 #### Persona #1
 
 - What do they expect from a solution?  
-   The user expects that the solution helps them in a meaningful way. Also, indicates functionality, security, privacy, ease of use, and efficiency as their top 5 expectations.
-
+  The user expects that the solution helps them in a meaningful way. Also, indicates functionality, security, privacy, ease of use, and efficiency as their top 5 expectations.
 - When and how would they like to use the solution?  
-   The user indicates that they would use their mobile device and that they would like to use the solution at their own room.
+  The user indicates that they would use their mobile device and that they would like to use the solution at their own room.
 - How much important is privacy for them?  
-   The user values privacy normally. They do not wish to make public what should be private, and that they do not like data recollection unless it's with their consent and anonymous.
+  The user values privacy normally. They do not wish to make public what should be private, and that they do not like data recollection unless it's with their consent and anonymous.
 - Age  
   18 years old.
 - Education  
@@ -199,7 +198,6 @@ To analyze the results of the survey, we applied mode, also known as the most fr
   They use their mobile device for entertainment/recreative purposes, browsing in the internet, communicating with other people, and doing academic-related work.
 - Frustrations  
   The user has a wide range of frustations.
-
   - Personal:
     - Economic problems
     - Unwillingess to deal with the current situation thanks to its absurdity or inability to change anything about it
@@ -220,17 +218,17 @@ To analyze the results of the survey, we applied mode, also known as the most fr
 - How is value defined?  
   They value functionality, security, privacy, ease of use, and efficiency as their top 5 expectations. They also indicate that they want to be comforted as well as motivated and/or cheered up by the solution. Finally, they value a free solution which they can use the least time possible and without requiring to adapt to it.
 - Surrounding Environment  
-   The user would like to use the solution in the privacy of their own room.
+  The user would like to use the solution in the privacy of their own room.
 - Confidentiality/Privacy  
-   They value privacy and they want a solution that does not recollect data without their consent, and as long as it's anonymous. They want to trust the application so that it's easier for them to open up, and they want to use it in a private setting where it's only them and the solution.
+  They value privacy and they want a solution that does not recollect data without their consent, and as long as it's anonymous. They want to trust the application so that it's easier for them to open up, and they want to use it in a private setting where it's only them and the solution.
 - Satisfaction  
-   An app that is cheap or free, that is easy and fun to use, efficient, and as long as it's not collecting their data without consent, would satisfy them.
+  An app that is cheap or free, that is easy and fun to use, efficient, and as long as it's not collecting their data without consent, would satisfy them.
 - Frequency of use  
-   The user uses their mobile device more than 3 hours a day, but they are not going to use the solution for any longer than 1 hour.
+  The user uses their mobile device more than 3 hours a day, but they are not going to use the solution for any longer than 1 hour.
 - Mood/Feeling  
-   They feel deeply hit thanks to the current situation but they try not to let it get to them. Besides, they want to feel safe and comforted while also being motivated and entertained by a free, easy to use app with a fun set of activities, so that they can have a good time. They want to be distracted from their problems while also bettering themselves.
+  They feel deeply hit thanks to the current situation but they try not to let it get to them. Besides, they want to feel safe and comforted while also being motivated and entertained by a free, easy to use app with a fun set of activities, so that they can have a good time. They want to be distracted from their problems while also bettering themselves.
 - Pleasurable  
-   Ease of use and comprehensibility as well as fun or motivating can help the user feel more compliant to keep using the app for an extended period of time and not just a one-time ocassion.
+  Ease of use and comprehensibility as well as fun or motivating can help the user feel more compliant to keep using the app for an extended period of time and not just a one-time ocassion.
 
 ## Scenarios
 
@@ -309,6 +307,5 @@ To analyze the results of the survey, we applied mode, also known as the most fr
      The user cannot afford for therapy so they will be relieved to find that our app helps them overcome the feelings of anxiety and stress by doing all the available activities inside the app daily.     
   8. Enjoy the benefits    
   	 The user finds out that they feel more relaxed everyday thanks to the application and that they are able to express themselves without having to spend money.
-   
-     
+
 > [👈 Go back.](../specs.md)

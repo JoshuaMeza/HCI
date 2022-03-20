@@ -2,9 +2,13 @@
 
 ## 📝 About the project
 
-[![Introduction video](./github/img/Screenshot_IntroVideo.png)](#)
+[![Introduction video](./github/img/IntroVideoF.png)](#)
 
-Description...
+This project is aiming to fight, or at least reducing, the negative effects on people’s mental health that social isolation has caused during the COVID-19 pandemic, such as stress, anxiety, sadness, among others.
+
+The project consists of developing a mobile application that simulates using a diary, with the option of reproducing music, sharing your thoughts with other people, and having special interactions with the written pages, all for letting and helping people to express their feelings and finally relieve their burdens.
+
+It is important to clarify that the proposal is a complementary activity that is not replacing a professional therapy or counseling service.
 
 > [📚 Go to the documentation section.](./github/doc/index.md)
 
