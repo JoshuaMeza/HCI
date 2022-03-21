@@ -241,13 +241,13 @@ To analyze the results of the survey, we applied mode, also known as the most fr
 
 ```mermaid
 flowchart TD
-  act1[User browses the internet]
-  act2[User finds articles, advertisements and more]
-  act3[User finds out about therapeutic applications]
-  act4[User browses their application store of choice]
-  act5[User decides to install an app]
-  act6[Using our app]
-  act7[Changing bad habits]
+  act1(User browses the internet)
+  act2(User finds articles, advertisements and more)
+  act3(User finds out about therapeutic applications)
+  act4(User browses their application store of choice)
+  act5(User decides to install an app)
+  act6(Using our app)
+  act7(Changing bad habits)
 
   act1 --> act2
   act2 --> act3
@@ -281,10 +281,26 @@ flowchart TD
 
 ```mermaid
 flowchart TD
+  act1(User brings out the problem about not being able to get therapy more regularly)
+  act2(Therapist recommends the user about therapeutic applications)
+  act3(User agrees to look them up)
+  act4(User browses their application store of choice)
+  act5(User decides to install an app)
+  act6(Using our app)
+  act7(Helping real therapy)
+  act8(Feeling better)
+
+  act1 --> act2
+  act2 --> act3
+  act3 --> act4
+  act4 --> act5
+  act5 --> act6
+  act6 --> act7
+  act7 --> act8
 ```
 
 - Execution path:
-  1. User brings out the problem about not being able to get therapy more regularly.  
+  1. User brings out the problem about not being able to get therapy more regularly  
      The user tells their therapist about the problem where they cannot see each other more regularly.
   2. Therapist recommends the user about therapeutic applications  
      The therapist tells the user that they can use therapeutic applications whenever they need it as not to have dead-time in between sessions.
@@ -309,11 +325,27 @@ flowchart TD
 
 ```mermaid
 flowchart TD
+  act1(User is browsing normally the web)
+  act2(Advertisements appear)
+  act3(The user knows)
+  act4(User agrees to look them up)
+  act5(User browses their application store of choice)
+  act6(User decides to install an app)
+  act7(Using our app)
+  act8(Enjoy the benefits)
+
+  act1 --> act2
+  act2 --> act3
+  act3 --> act4
+  act4 --> act5
+  act5 --> act6
+  act6 --> act7
+  act7 --> act8
 ```
 
 - Execution path:
   1. User is browsing normally the web  
-     User is browsing normally the web, utilizing their mobile device to either entertain themselves or to do homework
+     User is browsing normally the web, utilizing their mobile device to either entertain themselves or to do homework.
   2. Advertisements appear  
      User is prompted and advertisement, video or link, where therapeutic apps are showcased.
   3. The user knows  
