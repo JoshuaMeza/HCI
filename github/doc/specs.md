@@ -31,18 +31,18 @@ Mental health problems due to social isolation, as a consequence of the COVID-19
 
 ### Target users
 
-The target from this proyect are college students with a deteriortion in their academic performances due to emotional exhaustion or stress.
+The target from this project are college students with a deterioration in their academic performances due to emotional exhaustion or stress.
 
 ### Objectives
 
-Although there are multiple applications that are made to tackle feelings of stress and depression like Headspace and Dare, they normally have audio guides and textual sources to read but this does not include a therapeutic way to ventilate about your own feelings by writing or drawing, and on the market there are certain cons that can propose a problem which is not to be completely informed on these subjects, this application wants to overcome these problems so people can have a better way of letting go their negative feelings to make them feel better and have a good response on the people in a therapeutic way.
+Provide a tool that helps people letting out their emotions (serving as a complementary activity for professional consultory or therapy), reducing their emotional charge as a consequence of social isolation due to the COVID-19 pandemic.
 
 ### Feasibility
 
 #### Innovation
 
 There are multiple applications that are made to tackle the feelings of stress and depression like Headspace and Dare.
-Typically, those applications only include audio guides and textual sources to read from. but they don't include a therapeutic way to ventilate about your problems by writing, drawing and listening to relaxing music (and more) while you're doing it.
+Typically, those applications only include audio guides and textual sources to read from, but they don't include a therapeutic way to ventilate about your problems by writing, drawing and listening to relaxing music (and more) while you're doing it.
 You don't really get to take out any of the feelings you're going through, which is beneficial for helping overcome them. You can't feel better until you ventilate about what you're going through.
 All these things combined offer a different experience than those already included in the already-existing applications on the market.
 

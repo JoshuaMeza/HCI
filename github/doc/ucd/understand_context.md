@@ -239,7 +239,23 @@ To analyze the results of the survey, we applied mode, also known as the most fr
 - Task: The student has developed bad eating habits due the pandemic, and is searching for a solution that helps them change those bad habits for good ones, but doesn't know where or how to find it except for looking with their mobile device.
 - Method:
 
-<!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
+```mermaid
+flowchart TD
+  act1[User browses the internet]
+  act2[User finds articles, advertisements and more]
+  act3[User finds out about therapeutic applications]
+  act4[User browses their application store of choice]
+  act5[User decides to install an app]
+  act6[Using our app]
+  act7[Changing bad habits]
+
+  act1 --> act2
+  act2 --> act3
+  act3 --> act4
+  act4 --> act5
+  act5 --> act6
+  act6 --> act7
+```
 
 - Execution path:
   1. User browses the internet  
@@ -253,9 +269,9 @@ To analyze the results of the survey, we applied mode, also known as the most fr
   5. User decides to install an app  
      The user takes time to look at each result and selects the one that better matches their criteria.
   6. Using our app  
-      The user installs our app and they can write their experiences down to organize their ideas so that they can detect what's causing their problems.
+     The user installs our app and they can write their experiences down to organize their ideas so that they can detect what's causing their problems.
   7. Changing bad habits  
-      Now that the user knows where the problems are, they can work on bettering themselves and writing down each step of the way as well as using the other app functions to help them go through the change.
+     Now that the user knows where the problems are, they can work on bettering themselves and writing down each step of the way as well as using the other app functions to help them go through the change.
 
 ### Scenario 2
 
@@ -263,7 +279,9 @@ To analyze the results of the survey, we applied mode, also known as the most fr
 - Task: College student already goes to therapy, but they cannot see the therapist more regularly.
 - Method:
 
-<!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
+```mermaid
+flowchart TD
+```
 
 - Execution path:
   1. User brings out the problem about not being able to get therapy more regularly.  
@@ -277,9 +295,9 @@ To analyze the results of the survey, we applied mode, also known as the most fr
   5. User decides to install an app  
      The user takes time to look at each result and selects the one that better matches their criteria.
   6. Using our app  
-      The user installs our app and they can listen to music and paint, as well as pass the time writing down what's going on in their head meanwhile they wait for the next therapy session.
+     The user installs our app and they can listen to music and paint, as well as pass the time writing down what's going on in their head meanwhile they wait for the next therapy session.
   7. Helping real therapy  
-      The user can use what they wrote in the app to better explain the therapist what's going on inside their head since the thoughts are now organized and written down.
+     The user can use what they wrote in the app to better explain the therapist what's going on inside their head since the thoughts are now organized and written down.
   8. Feeling better  
      The user can feel like there's therapeutic guidance in-between sessions and they can feel the benefit of using the app by making it easier to fight the psychological problems while they enjoy themselves.
 
@@ -289,7 +307,9 @@ To analyze the results of the survey, we applied mode, also known as the most fr
 - Task: College student is browsing normally the web and finds out about therapeutic apps thanks to their recent searches across multiple websites.
 - Method:
 
-<!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
+```mermaid
+flowchart TD
+```
 
 - Execution path:
   1. User is browsing normally the web  
@@ -307,6 +327,6 @@ To analyze the results of the survey, we applied mode, also known as the most fr
   7. Using our app  
      The user cannot afford for therapy so they will be relieved to find that our app helps them overcome the feelings of anxiety and stress by doing all the available activities inside the app daily.
   8. Enjoy the benefits  
-      The user finds out that they feel more relaxed everyday thanks to the application and that they are able to express themselves without having to spend money.
+     The user finds out that they feel more relaxed everyday thanks to the application and that they are able to express themselves without having to spend money.
 
 > [👈 Go back.](../specs.md)
