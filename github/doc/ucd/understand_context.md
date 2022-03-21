@@ -16,11 +16,11 @@
     - [Survey](#survey)
   - [Analysis method](#analysis-method)
   - [Results](#results)
-    - [Persona #1](#persona-1)
+    - [Persona 1](#persona-1)
 - [Scenarios](#scenarios)
-  - [Scenario #1](#scenario-1)
-  - [Scenario #2](#scenario-2)
-  - [Scenario #3](#scenario-3)
+  - [Scenario 1](#scenario-1)
+  - [Scenario 2](#scenario-2)
+  - [Scenario 3](#scenario-3)
 
 ## Personas
 
@@ -178,7 +178,7 @@ To analyze the results of the survey, we applied mode, also known as the most fr
 
 ### Results
 
-#### Persona #1
+#### Persona 1
 
 - What do they expect from a solution?  
   The user expects that the solution helps them in a meaningful way. Also, indicates functionality, security, privacy, ease of use, and efficiency as their top 5 expectations.
@@ -198,6 +198,7 @@ To analyze the results of the survey, we applied mode, also known as the most fr
   They use their mobile device for entertainment/recreative purposes, browsing in the internet, communicating with other people, and doing academic-related work.
 - Frustrations  
   The user has a wide range of frustations.
+
   - Personal:
     - Economic problems
     - Unwillingess to deal with the current situation thanks to its absurdity or inability to change anything about it
@@ -232,80 +233,80 @@ To analyze the results of the survey, we applied mode, also known as the most fr
 
 ## Scenarios
 
-### Scenario #1
+### Scenario 1
 
-- Title: Bad habits  
-- Task: The student has developed bad eating habits due the pandemic, and is searching for a solution that helps them change those bad habits for good ones, but doesn't know where or how to find it except for looking with their mobile device.  
+- Title: Bad habits
+- Task: The student has developed bad eating habits due the pandemic, and is searching for a solution that helps them change those bad habits for good ones, but doesn't know where or how to find it except for looking with their mobile device.
 - Method:
 
 <!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
 
-- Execution path:  
+- Execution path:
   1. User browses the internet  
-     The user browses the internet looking for solutions that could help them change those bad habits.  
+     The user browses the internet looking for solutions that could help them change those bad habits.
   2. User finds articles, advertisements and more  
-     The user finds articles about mental health and helpful information in how to change those bad habits, but they want something more personal.  
+     The user finds articles about mental health and helpful information in how to change those bad habits, but they want something more personal.
   3. User finds out about therapeutic applications  
-     The user finds information on the internet about therapeutic applications and reviews about how they actually work.  
+     The user finds information on the internet about therapeutic applications and reviews about how they actually work.
   4. User browses their application store of choice  
-     The user browses their application store of choice using keywords that return results of therapeutic applications.  
+     The user browses their application store of choice using keywords that return results of therapeutic applications.
   5. User decides to install an app  
-     The user takes time to look at each result and selects the one that better matches their criteria.  
+     The user takes time to look at each result and selects the one that better matches their criteria.
   6. Using our app  
-  	 The user installs our app and they can write their experiences down to organize their ideas so that they can detect what's causing their problems.
+      The user installs our app and they can write their experiences down to organize their ideas so that they can detect what's causing their problems.
   7. Changing bad habits  
-  	 Now that the user knows where the problems are, they can work on bettering themselves and writing down each step of the way as well as using the other app functions to help them go through the change.
+      Now that the user knows where the problems are, they can work on bettering themselves and writing down each step of the way as well as using the other app functions to help them go through the change.
 
-### Scenario #2
+### Scenario 2
 
-- Title: Recommended by  
-- Task: College student already goes to therapy, but they cannot see the therapist more regularly.  
-- Method:  
+- Title: Recommended by
+- Task: College student already goes to therapy, but they cannot see the therapist more regularly.
+- Method:
 
 <!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
 
-- Execution path:  
+- Execution path:
   1. User brings out the problem about not being able to get therapy more regularly.  
-     The user tells their therapist about the problem where they cannot see each other more regularly.  
+     The user tells their therapist about the problem where they cannot see each other more regularly.
   2. Therapist recommends the user about therapeutic applications  
-     The therapist tells the user that they can use therapeutic applications whenever they need it as not to have dead-time in between sessions.  
+     The therapist tells the user that they can use therapeutic applications whenever they need it as not to have dead-time in between sessions.
   3. User agrees to look them up  
-     The user is interested in the idea and agrees to look them up.  
+     The user is interested in the idea and agrees to look them up.
   4. User browses their application store of choice  
-     The user browses their application store of choice using keywords that return results of therapeutic applications.  
+     The user browses their application store of choice using keywords that return results of therapeutic applications.
   5. User decides to install an app  
-     The user takes time to look at each result and selects the one that better matches their criteria.  
+     The user takes time to look at each result and selects the one that better matches their criteria.
   6. Using our app  
-  	 The user installs our app and they can listen to music and paint, as well as pass the time writing down what's going on in their head meanwhile they wait for the next therapy session.
+      The user installs our app and they can listen to music and paint, as well as pass the time writing down what's going on in their head meanwhile they wait for the next therapy session.
   7. Helping real therapy  
-  	 The user can use what they wrote in the app to better explain the therapist what's going on inside their head since the thoughts are now organized and written down.
+      The user can use what they wrote in the app to better explain the therapist what's going on inside their head since the thoughts are now organized and written down.
   8. Feeling better  
      The user can feel like there's therapeutic guidance in-between sessions and they can feel the benefit of using the app by making it easier to fight the psychological problems while they enjoy themselves.
-     
-### Scenario #3
 
-- Title: Big Data  
-- Task: College student is browsing normally the web and finds out about therapeutic apps thanks to their recent searches across multiple websites.  
+### Scenario 3
+
+- Title: Big Data
+- Task: College student is browsing normally the web and finds out about therapeutic apps thanks to their recent searches across multiple websites.
 - Method:
 
 <!-- Mermaid (https://mermaid-js.github.io/mermaid/#/flowchart) or an image of the flow chart -->
 
-- Execution path:  
+- Execution path:
   1. User is browsing normally the web  
-     User is browsing normally the web, utilizing their mobile device to either entertain themselves or to do homework  
+     User is browsing normally the web, utilizing their mobile device to either entertain themselves or to do homework
   2. Advertisements appear  
-     User is prompted and advertisement, video or link, where therapeutic apps are showcased.  
+     User is prompted and advertisement, video or link, where therapeutic apps are showcased.
   3. The user knows  
-     The user knows that they have been searching for therapy online but could not afford or find one that matches their criteria, so they decide to put attention for a minute to the advertisement.  
+     The user knows that they have been searching for therapy online but could not afford or find one that matches their criteria, so they decide to put attention for a minute to the advertisement.
   4. User agrees to look them up  
-     The user is interested in the idea and agrees to look them up.  
+     The user is interested in the idea and agrees to look them up.
   5. User browses their application store of choice  
-     The user browses their application store of choice using keywords that return results of therapeutic applications.  
+     The user browses their application store of choice using keywords that return results of therapeutic applications.
   6. User decides to install an app  
-     The user takes time to look at each result and selects the one that better matches their criteria.  
+     The user takes time to look at each result and selects the one that better matches their criteria.
   7. Using our app  
-     The user cannot afford for therapy so they will be relieved to find that our app helps them overcome the feelings of anxiety and stress by doing all the available activities inside the app daily.     
-  8. Enjoy the benefits    
-  	 The user finds out that they feel more relaxed everyday thanks to the application and that they are able to express themselves without having to spend money.
+     The user cannot afford for therapy so they will be relieved to find that our app helps them overcome the feelings of anxiety and stress by doing all the available activities inside the app daily.
+  8. Enjoy the benefits  
+      The user finds out that they feel more relaxed everyday thanks to the application and that they are able to express themselves without having to spend money.
 
 > [👈 Go back.](../specs.md)
