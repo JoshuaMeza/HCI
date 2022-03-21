@@ -45,8 +45,10 @@
 #### RF8:
 
 - The system must provide the user with notifications of new updates, activities and mental health information.
-  ####RF9:
-- The system must control access, only allowing it to authorized users
+
+#### RF9:
+
+- The system must control access, only allowing it to authorized users.
 
 #### RF10:
 
@@ -60,7 +62,7 @@
 
 #### RFN2:
 
-- The system will not provide advice to treat mental illness
+- The system will not provide advice to treat mental illness.
 
 #### RFN3:
 
@@ -116,7 +118,7 @@
 |        **5**        | The user can now interact with the elements of the activity                                                            |
 |  **Postcondition**  | The user performs the activity I select, and the system saves the progress of the activity.                            |
 
-![Diagram picture](https://github.com/JoshuaMeza/HCI/blob/AlejandroCauich/github/img/Mental%20Health%20App%20Diagram%201.jpeg)
+![Diagram picture](../../img/UseCaseDiag1.jpeg)
 
 #### Use case 2
 
@@ -135,7 +137,7 @@
 |        **4**        | The system loads the selected item                                                                                      |
 |  **Postcondition**  | The user can now read the selected information.                                                                         |
 
-![Diagram picture](https://github.com/JoshuaMeza/HCI/blob/AlejandroCauich/github/img/Mental%20Health%20App%20Diagram%202.jpeg)
+![Diagram picture](../../img/UseCaseDiag2.jpeg)
 
 #### Use case 3
 
@@ -157,6 +159,6 @@
 |        **5**        | The user accesses this information only if he enters his username and password                                                    |
 |  **Postcondition**  | The user can consult the annotations he has made previously without the concern that his data can be exposed if he does not wish. |
 
-![Diagram picture](https://github.com/JoshuaMeza/HCI/blob/AlejandroCauich/github/img/Mental%20health%20app%203.jpg)
+![Diagram picture](../../img/UseCaseDiag3.jpg)
 
 > [👈 Go back.](../specs.md)
