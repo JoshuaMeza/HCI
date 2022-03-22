@@ -11,5 +11,6 @@
 - [Personas definition presentation](https://alumnosuady-my.sharepoint.com/:p:/g/personal/a16001575_alumnos_uady_mx/EadG4K9NfMRPnOIk8lr-jrUBfFYVGUsvsdEqMlHfE2mmTg?e=80EZIu)
 - [Project introduction](https://youtu.be/prHE3JrUufs)
 - [Gender HCI video](https://youtu.be/aeQlyFvbNtQ)
+- [Gestalt principles presentation](https://alumnosuady-my.sharepoint.com/:p:/g/personal/a16001575_alumnos_uady_mx/EfLbKnjJ8MRNrVcY1y1tu5EBWiumAXHJ9gkj2u2Esodagw?e=J1fIVy)
 
 > [👈 Go back.](./index.md)

@@ -23,7 +23,7 @@
 | **12** | Survey's result analysis                               |        Amaury        |  March 12   |  March 18   | Personas and scenarios definition                   |
 | **13** | User requirements definition                           | Alejandro and Carlos |  March 13   |  March 18   | User requirements                                   |
 | **14** | Project overview                                       | Jonathan and Joshua  |  March 15   |  March 20   | Presentation video and summary presentation         |
-| **15** | Progress control meeting                               |       Everyone       |  March 18   |  March 18   | Process approval                                    |
+| **15** | Progress control meeting                               |       Everyone       |     ---     |     ---     | Process approval                                    |
 | **16** | Repository development - Second iteration              |       Everyone       |     ---     |     ---     | Repository                                          |
 
 ## Work metric
