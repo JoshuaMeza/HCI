@@ -88,16 +88,16 @@ Typically, the section of the UI corresponding to the main container will not pe
 Finally, once we have identified the containers, we need to link them together to reflect the navigation flow (according to the concrete use cases). If any conditions determine the navigation flow to a particular container, label the arrow.
 
 | Defining containers and linking | Generating content diagram | UI proposal |
+| :-----------------: | :---------------------: | :---------------------: |
 | ![Diagram picture](../../img/clases.png) | ![Diagram picture](../../img/container.png) | ![Diagram picture](../../img/ui_template.png) |
 
 The template used for defining containers is the next one:
 
 | **Name** | Container’s name |
+| :------- | :--------------- |
 | **Purpose** | A phrase indicating its purpose in supporting the user’s task. |
-| **Functions** | *	Functions invoked by the user. *	Functions invoked automatically by the system. |
-| **Links** | The links with other containers, indicating the name of the container linked to and its purpose. There are two types of links:
-**Single links**: A single link indicates that the user moves to another container and then that new container becomes the focus of the user’s activities.
-**Double links**: A double link indicates that the work done in a second container needs the context of the first container and that the user will switch back and forth between the two; | 
+| **Functions** | - 	Functions invoked by the user. <br> - 	Functions invoked automatically by the system. |
+| **Links** | The links with other containers, indicating the name of the container linked to and its purpose. There are two types of links: <br> **Single links**: A single link indicates that the user moves to another container and then that new container becomes the focus of the user’s activities. <br> **Double links**: A double link indicates that the work done in a second container needs the context of the first container and that the user will switch back and forth between the two; | 
 | **Objects** | The task objects whose attributes and actions are required for the users to complete their tasks. |
 | **Constraints** | Any constraints of the container. | 
 
