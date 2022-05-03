@@ -15,26 +15,37 @@
 ### Functional
 
 - **FR1**: The system provides the user with activities that help reduce their stress level.
-- **FR2**: The system provides advice for taking a better care of mental health.
-- **FR3**: The system provides information about the relationship between having a healthy diet and keeping a good mental health.
+- **FR2**: The system will present an information section for users.
+- **FR3**: The system will have a section of activities available to be carried out by users.
 - **FR4**: The system will mention that it is not a substitute of profesional consultory or psychological therapy.
 - **FR5**: The system will have an activity that allows the user to write about their experiences or emotions.
 - **FR6**: The system will allow the user to make drawings in their annotations.
 - **FR7**: The system will have a community section where users can share their work or experiences.
 - **FR8**: The system must provide the user with notifications of new updates, activities and mental health information.
-- **FR9**: The system must control access, only allowing it to authorized users.
+- **FR9**: The system must control access, allowing only authorized users through an authentication process.
 - **FR10**: The system will have relaxing music in the background.
+- **FR11**: The system must allow users to set up their account.
+- **FR12**: The system will allow you to filter the information section.
 
 ### Non-functional
 
-- **NFR1**: The time of response on any of the functionalities on the application, excluding a saving process, should not take more than 1 second.
-- **NFR2**: The information provided should only be from psychological organizations or experts of the field.
-- **NFR3**: The information entered by users in the application must be completely confidential.
-- **NFR4**: The information entered by users must always be encrypted, to guarantee their privacy and security.
+- **NFR1**: The time of response on any of the functionalities on the application, excluding a saving process, should not take more than 2 seconds.
+- **NFR2**: Information provided should only be from psychological organizations or experts in the field of mental health and nutrition.
+- **NFR3**: The information entered by users must always be encrypted, to guarantee their privacy and security.
+- **NFR4**: The system will present users with information about mental health centers if they request it.
 - **NFR5**: Only the user can access to their recorded experiences.
 - **NFR6**: People must be able to understand how to use the application by intuition, they are not supposed to spend more tan 20 seconds to find where to access to any of the most representative features, starting in the principal menu, during their first-time use.
-- **NFR7**: The application should have a size smaller than 100 MB.
-- **NFR8**: Any song provided by the application must be accepted for use by a professional.
+- **NFR7**: The system will allow users to share experiences or work anonymously or through social networks.
+- **NFR8**: The user can customize the notifications that are sent by the system or disable them.
+- **NFR9**: The system will only allow authentication through facebook, gmail and email.
+- **NF10**: The background music of the system will be those recommended by experts or studies on this subject.
+- **NFR11**: The system allows the user to disable features such as background music or change others such as language or username.
+- **NFR12**: The information presented may be filtered by date of publication, subject or alphabetical order.
+- **NFR13**: The system will have a user tutorial on each of the activity or information search sections.
+- **NFR14**: The content of the system must be responsive with different mobile sizes, in order to guarantee the same experience for all users.
+- **NFR15**: In case of error or bad behavior, the system must display an alert to notify the user of this behavior.
+- **NFR16**: The rate of errors made by the user should be no more than 10% of system functionalities.
+- **NFR17**: The system will ask the user about their level of satisfaction in the use of an activity after completing any of them.
 
 ### Use case diagrams
 
