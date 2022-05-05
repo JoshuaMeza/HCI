@@ -15,9 +15,9 @@
   - [Guidelines for a low fidelity user interface](#guidelines-for-a-low-fidelity-user-interface)
 - [Project application](#project-application)
   - [Structure prototype](#structure-prototype)
-    - [Use case 1](#use-case-1)
-    - [Use case 2](#use-case-2)
-    - [Use case 3](#use-case-3)
+    - [Use case 1: Selection of Activities](#use-case-1-selection-of-activities)
+    - [Use case 2: Mental Health Care Information](#use-case-2-mental-health-care-information)
+    - [Use case 3: Security and Privacy](#use-case-3-security-and-privacy)
     - [Final content diagram](#final-content-diagram)
     - [Interaction design](#interaction-design)
   - [User interface](#user-interface)
@@ -111,13 +111,13 @@ Finally, once we have identified the containers, we need to link them together t
 
 The template used for defining containers is the next one:
 
-| **Name**                        | Container’s name                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| :------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Purpose**                     | A phrase indicating its purpose in supporting the user’s task.                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Functions**                   | - Functions invoked by the user. <br> - Functions invoked automatically by the system.                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Links**                       | The links with other containers, indicating the name of the container linked to and its purpose. There are two types of links: <br> **Single links**: A single link indicates that the user moves to another container and then that new container becomes the focus of the user’s activities. <br> **Double links**: A double link indicates that the work done in a second container needs the context of the first container and that the user will switch back and forth between the two; |
-| **Objects**                     | The task objects whose attributes and actions are required for the users to complete their tasks.                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Non-functional requirements** | Any constraints of the container.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Name**                        | Container’s name                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| :------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Purpose**                     | A phrase indicating its purpose in supporting the user’s task.                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Functions**                   | - Functions invoked by the user. <br> - Functions invoked automatically by the system.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Links**                       | The links with other containers, indicating the name of the container linked to and its purpose. There are two types of links: <br> **Single links**: A single link indicates that the user moves to another container and then that new container becomes the focus of the user’s activities. <br> **Double links**: A double link indicates that the work done in a second container needs the context of the first container and that the user will switch back and forth between both. |
+| **Objects**                     | The task objects whose attributes and actions are required for the users to complete their tasks.                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Non-functional requirements** | Any constraints of the container.                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 ### Guidelines for a low fidelity user interface
 
@@ -131,25 +131,221 @@ In the case of designing user interfaces, you probably would like to use a stand
 
 ### Structure prototype
 
-#### Use case 1
+#### Use case 1: Selection of Activities
 
-...
+![Use case 1](../../img/UseCaseDiag1.jpeg)
 
-#### Use case 2
+As we know, we start by marking up the concrete requirements to identify task objects, their attributes, and their actions.
 
-...
+| User action                                                                                        | System response                                                                                               |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| The user enters the application to perform an **activity** and goes to the **activities section**. | The system displays the available activities to be carried out.                                               |
+| The user selects an activity that catches their attention.                                         | The system displays the activity selected by the user and **provides you with various tools** for you to use. |
+| The user performs a job using the app's tools.                                                     | The system **saves the work**, so that the user can **consult it** at another time.                           |
 
-#### Use case 3
+Then, it is helpful to compile them, along with the actions, into a single object–action–attribute table.
 
-...
+| User action                                                                       | System response                                                                             |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| The user **consults** the **activities** available in the **activities section**. | The system shows the activities that can be performed in the app.                           |
+| The user selects the **journal** activity.                                        | The system displays a canvas with **tools to write, delete, change font type, color, etc**. |
+| The user writes on the canvas customizing it in their own way.                    | The system **saves the work**, so that the user can **consult it** at another time.         |
+
+After that, to increase readability, it is good to organize the information in an object–attribute–action table.
+
+| Task object  |    Attributes    |     Actions     |
+| :----------: | :--------------: | :-------------: |
+| **Activity** |      Title       |      View       |
+|              |     Content      | Edit <br> Save  |
+|              | Number of sheets | Add <br> Remove |
+|              |      Format      |      Edit       |
+
+The next step is to prototype the containers.
+
+| **Name**                        | Main                                                                                               |
+| ------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Purpose**                     | Support for app activities                                                                         |
+| **Functions**                   | - Access to the draw activity <br> - Access to the diary activity                                  |
+| **Links**                       | - Diary <br> - Draw                                                                                |
+| **Objects**                     |                                                                                                    |
+| **Non-functional requirements** | - Must be responsive <br> - Alert in case of error <br> - Response time not greater than 2 seconds |
+
+| **Name**                        | Draw activity                                                                                                                        |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Purpose**                     | The user can draw inside the canvas in the application                                                                               |
+| **Functions**                   | - Draw <br> - Paint <br> - Change the stroke style <br> - Save                                                                       |
+| **Links**                       | Save activity                                                                                                                        |
+| **Objects**                     | Document                                                                                                                             |
+| **Non-functional requirements** | - Must be responsive <br> - Activities need a tutorial <br> - Alert in case of error <br> - Response time not greater than 2 seconds |
+
+| **Name**                        | Diary activity                                                                                                                       |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Purpose**                     | The user can draw inside the canvas in the application                                                                               |
+| **Functions**                   | - Write <br> - Edit text <br> - Save <br> - Change text format                                                                       |
+| **Links**                       | Save activity                                                                                                                        |
+| **Objects**                     | Document                                                                                                                             |
+| **Non-functional requirements** | - Must be responsive <br> - Activities need a tutorial <br> - Alert in case of error <br> - Response time not greater than 2 seconds |
+
+| **Name**                        | Save activity                                                                                                 |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Purpose**                     | Save the progress of an activity                                                                              |
+| **Functions**                   | - Save                                                                                                        |
+| **Links**                       |                                                                                                               |
+| **Objects**                     | Encrypted document                                                                                            |
+| **Non-functional requirements** | - Alert in case of error <br> - Response time not greater than 2 seconds <br> - Information must be encrypted |
+
+Finally, it is time to build the content diagram.
+
+```mermaid
+flowchart TD
+  a(Main)
+  b(Draw activity)
+  c(Diary activity)
+  d(Save activity)
+
+  a --> b
+  a --> c
+  b --> d
+  c --> d
+```
+
+#### Use case 2: Mental Health Care Information
+
+![Use case 2](../../img/UseCaseDiag2.jpeg)
+
+As we know, we start by marking up the concrete requirements to identify task objects, their attributes, and their actions.
+
+| User action | System response |
+| ----------- | --------------- |
+| ...         | ...             |
+
+Then, it is helpful to compile them, along with the actions, into a single object–action–attribute table.
+
+| User action | System response |
+| ----------- | --------------- |
+| ...         | ...             |
+
+After that, to increase readability, it is good to organize the information in an object–attribute–action table.
+
+| Task object | Attributes | Actions |
+| :---------: | :--------: | :-----: |
+|     ...     |    ...     |   ...   |
+
+The next step is to prototype the containers.
+
+| **Name**                        | ...              |
+| ------------------------------- | ---------------- |
+| **Purpose**                     | ...              |
+| **Functions**                   | - ... <br> - ... |
+| **Links**                       | ...              |
+| **Objects**                     | ...              |
+| **Non-functional requirements** | ...              |
+
+Finally, it is time to build the content diagram.
+
+```mermaid
+flowchart TD
+  a(Container name)
+  b(Container name)
+
+  a --> b
+```
+
+#### Use case 3: Security and Privacy
+
+![Use case 3](../../img/UseCaseDiag3.jpg)
+
+As we know, we start by marking up the concrete requirements to identify task objects, their attributes, and their actions.
+
+| User action | System response |
+| ----------- | --------------- |
+| ...         | ...             |
+
+Then, it is helpful to compile them, along with the actions, into a single object–action–attribute table.
+
+| User action | System response |
+| ----------- | --------------- |
+| ...         | ...             |
+
+After that, to increase readability, it is good to organize the information in an object–attribute–action table.
+
+| Task object | Attributes | Actions |
+| :---------: | :--------: | :-----: |
+|     ...     |    ...     |   ...   |
+
+The next step is to prototype the containers.
+
+| **Name**                        | ...              |
+| ------------------------------- | ---------------- |
+| **Purpose**                     | ...              |
+| **Functions**                   | - ... <br> - ... |
+| **Links**                       | ...              |
+| **Objects**                     | ...              |
+| **Non-functional requirements** | ...              |
+
+Finally, it is time to build the content diagram.
+
+```mermaid
+flowchart TD
+  a(Container name)
+  b(Container name)
+
+  a --> b
+```
 
 #### Final content diagram
 
-...
+```mermaid
+flowchart LR
+  a(Main)
+  b(Log in/Sign up)
+  c(Activities section)
+  d(Set up account)
+  e(Information section)
+  f(Perform activity)
+  g(Access activity)
+  h(Search topic)
+  i(Consult all topics)
+  j(Draw activity)
+  k(Diary activity)
+  l(View activity)
+  m(Edit activity)
+  n(View topic)
+  o(Save activity)
+  p(Share activity)
+
+  a --> b
+  b --> c
+  b --> d
+  b --> e
+  c --> f
+  c --> g
+  f <--> g
+  e --> h
+  e --> i
+  h <--> i
+  f --> j
+  f --> k
+  g --> l
+  g --> m
+  h --> n
+  i --> n
+  l --> p
+  j --> o
+  k --> o
+  l --> o
+  m --> o
+```
 
 #### Interaction design
 
-...
+```mermaid
+flowchart TD
+  a(Container name)
+  b(Container name)
+
+  a --> b
+```
 
 ### User interface
 

@@ -34,14 +34,14 @@
 - **NFR3**: The information entered by users must always be encrypted, to guarantee their privacy and security.
 - **NFR4**: The system will present users with information about mental health centers if they request it.
 - **NFR5**: Only the user can access to their recorded experiences.
-- **NFR6**: People must be able to understand how to use the application by intuition, they are not supposed to spend more tan 20 seconds to find where to access to any of the most representative features, starting in the principal menu, during their first-time use.
+- **NFR6**: People must be able to understand how to use the application by intuition, they are not supposed to spend more than one minute to find where to access to any of the most representative features, starting in the principal menu, during their first-time use.
 - **NFR7**: The system will allow users to share experiences or work anonymously or through social networks.
 - **NFR8**: The user can customize the notifications that are sent by the system or disable them.
 - **NFR9**: The system will only allow authentication through facebook, gmail and email.
 - **NF10**: The background music of the system will be those recommended by experts or studies on this subject.
 - **NFR11**: The system allows the user to disable features such as background music or change others such as language or username.
 - **NFR12**: The information presented may be filtered by date of publication, subject or alphabetical order.
-- **NFR13**: The system will have a user tutorial on each of the activity or information search sections.
+- **NFR13**: The system will have a user tutorial on each activity or a help button.
 - **NFR14**: The content of the system must be responsive with different mobile sizes, in order to guarantee the same experience for all users.
 - **NFR15**: In case of error or bad behavior, the system must display an alert to notify the user of this behavior.
 - **NFR16**: The rate of errors made by the user should be no more than 10% of system functionalities.
@@ -53,9 +53,9 @@
 
 |                     | Selection of Activities                                                                                        |
 | :-----------------: | :------------------------------------------------------------------------------------------------------------- |
-|  **Dependencies**   | RF5: Annotations about user experiences or emotions                                                            |
-|                     | RF6: History of activities carried out                                                                         |
-|                     | RF7: Share content                                                                                             |
+|  **Dependencies**   | FR5: Annotations about user experiences or emotions                                                            |
+|                     | FR6: History of activities carried out                                                                         |
+|                     | FR7: Share content                                                                                             |
 |  **Precondition**   | The user has entered the system through his username and password and has decided to perform an activity.      |
 |   **Description**   | The system will provide the user a set of activities that they can choose to de-stress or distract themselves. |
 | **Normal Sequence** | **Action**                                                                                                     |
@@ -72,8 +72,8 @@
 
 |                     | Mental Health Care Information                                                                      |
 | :-----------------: | :-------------------------------------------------------------------------------------------------- |
-|  **Dependencies**   | RF4: Reminder that the app does not replace traditional therapy                                     |
-|                     | RF7: Share content                                                                                  |
+|  **Dependencies**   | FR4: Reminder that the app does not replace traditional therapy                                     |
+|                     | FR7: Share content                                                                                  |
 |  **Precondition**   | The user has has been authenticated and wants to consult information about mental health.           |
 |   **Description**   | The system will provide different tips, notes or information related to the topic of mental health. |
 | **Normal Sequence** | **Action**                                                                                          |
@@ -87,12 +87,12 @@
 
 #### Use case 3
 
-|                     | Security & Privacy                                                                                       |
+|                     | Security and Privacy                                                                                     |
 | :-----------------: | :------------------------------------------------------------------------------------------------------- |
-|  **Dependencies**   | RNF1: Information entered by users must be confidential                                                  |
-|                     | RNF4: Information must be encrypted                                                                      |
-|                     | RNF5: Only the user can access their recorded experiences                                                |
-|                     | RF9: The system can be accessed by authorized users                                                      |
+|  **Dependencies**   | NFR1: Information entered by users must be confidential                                                  |
+|                     | NFR3: Information must be encrypted                                                                      |
+|                     | NFR5: Only the user can access their recorded experiences                                                |
+|                     | FR9: The system can be accessed by authorized users                                                      |
 |  **Precondition**   | The user has performed multiple activities on the system, placing experiences and sensitive information. |
 |   **Description**   | The system will save the information in a database, that only the user can retrieve.                     |
 | **Normal Sequence** | **Action**                                                                                               |
