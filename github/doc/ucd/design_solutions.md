@@ -3,6 +3,7 @@
 ## Table of contents
 
 - [Transforming requirements to UI](#transforming-requirements-to-ui)
+  - [Introduction](#introduction)
   - [Deriving Concrete Requirements from Essential Requirements](#deriving-concrete-requirements-from-essential-requirements)
   - [Identifying Task Objects, Attributes, and Actions](#identifying-task-objects-attributes-and-actions)
     - [Task Objects](#task-objects)
@@ -11,16 +12,31 @@
   - [Marking Up the Concrete Requirements to Identify Task Objects, Their Attributes, and Actions](#marking-up-the-concrete-requirements-to-identify-task-objects-their-attributes-and-actions)
   - [Prototyping Task Objects, Attributes, and Actions](#prototyping-task-objects-attributes-and-actions)
   - [Creating the content diagram](#creating-the-content-diagram)
+  - [Guidelines for a low fidelity user interface](#guidelines-for-a-low-fidelity-user-interface)
 - [Project application](#project-application)
+  - [Structure prototype](#structure-prototype)
+    - [Use case 1](#use-case-1)
+    - [Use case 2](#use-case-2)
+    - [Use case 3](#use-case-3)
+    - [Final content diagram](#final-content-diagram)
+    - [Interaction design](#interaction-design)
+  - [User interface](#user-interface)
+    - [Low fidelity](#low-fidelity)
+    - [Mid fidelity](#mid-fidelity)
+    - [Usability test](#usability-test)
 
 ## Transforming requirements to UI
 
-For this task, a design process described in the book User Interface Design and Evaluation (Jarret, Minocha, Stone & Woodroffe, 2005, pp. 144-164) was applied, it consists of doing four main tasks to develop a low fidelity prototype, called content diagram, that represents the organization and structure of the user interface from a designer’s perspective. The activities are the following:
+### Introduction
+
+For this task, a design process known as Conceptual Design described in the book User Interface Design and Evaluation (Jarret, Minocha, Stone & Woodroffe, 2005, pp. 144-164) was applied, it consists of doing four main tasks to develop a low fidelity prototype, called content diagram, that represents the organization and structure of the user interface from a designer’s perspective. The activities are the following:
 
 1. Derive the concrete use cases from the essential use cases.
 2. Identify the primary task objects, attributes, and actions.
 3. Identify the different containers and the task objects that go into each one.
 4. Link the containers to show the navigation flow.
+
+In the next sections you will see the complete process for this strategy (that is a summary of the book), but you can also check a [presentation](https://alumnosuady-my.sharepoint.com/:p:/g/personal/a16001575_alumnos_uady_mx/ESMxwAdWWfFFh95xA3KL0oMBt4aHz71UgKOVQyoew-J3Hg?e=HJ72DP) made by the team that goes step by step implementing the entire procedure.
 
 ### Deriving Concrete Requirements from Essential Requirements
 
@@ -89,22 +105,64 @@ The first container we need to specify is the main container. This represents th
 Typically, the section of the UI corresponding to the main container will not perform any of these tasks, instead, it will provide links to the containers that do. Other containers are usually derived from the concrete use cases, in which each of them shows the sequence of steps needed to accomplish a particular task, and every functionality that makes possible accomplishing that task can be divided into one or more containers.
 Finally, once we have identified the containers, we need to link them together to reflect the navigation flow (according to the concrete use cases). If any conditions determine the navigation flow to a particular container, label the arrow.
 
-|     Defining containers and linking      |         Generating content diagram          |                  UI proposal                  |
+|     Defining containers and linking      |         Generating content diagram          |            User interface proposal            |
 | :--------------------------------------: | :-----------------------------------------: | :-------------------------------------------: |
 | ![Diagram picture](../../img/clases.png) | ![Diagram picture](../../img/container.png) | ![Diagram picture](../../img/ui_template.png) |
 
 The template used for defining containers is the next one:
 
-| **Name**        | Container’s name                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| :-------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Purpose**     | A phrase indicating its purpose in supporting the user’s task.                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Functions**   | - Functions invoked by the user. <br> - Functions invoked automatically by the system.                                                                                                                                                                                                                                                                                                                                                                                                        |
-| **Links**       | The links with other containers, indicating the name of the container linked to and its purpose. There are two types of links: <br> **Single links**: A single link indicates that the user moves to another container and then that new container becomes the focus of the user’s activities. <br> **Double links**: A double link indicates that the work done in a second container needs the context of the first container and that the user will switch back and forth between the two; |
-| **Objects**     | The task objects whose attributes and actions are required for the users to complete their tasks.                                                                                                                                                                                                                                                                                                                                                                                             |
-| **Constraints** | Any constraints of the container.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Name**                        | Container’s name                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| :------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Purpose**                     | A phrase indicating its purpose in supporting the user’s task.                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Functions**                   | - Functions invoked by the user. <br> - Functions invoked automatically by the system.                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Links**                       | The links with other containers, indicating the name of the container linked to and its purpose. There are two types of links: <br> **Single links**: A single link indicates that the user moves to another container and then that new container becomes the focus of the user’s activities. <br> **Double links**: A double link indicates that the work done in a second container needs the context of the first container and that the user will switch back and forth between the two; |
+| **Objects**                     | The task objects whose attributes and actions are required for the users to complete their tasks.                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Non-functional requirements** | Any constraints of the container.                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+### Guidelines for a low fidelity user interface
+
+In the case of designing user interfaces, you probably would like to use a standard style that could make the user feel more comfortable while using your solution. You can try the following guidelines if you want:
+
+- [Style guides.](https://www.mockplus.com/blog/post/ui-style-guide)
+- [Layouts.](https://xd.adobe.com/ideas/principles/web-design/11-website-layouts-that-made-content-shine-in-2019/)
+- [Icons.](https://www.redhat.com/en/about/brand/standards/icons/standard-icons)
 
 ## Project application
 
+### Structure prototype
+
+#### Use case 1
+
 ...
+
+#### Use case 2
+
+...
+
+#### Use case 3
+
+...
+
+#### Final content diagram
+
+...
+
+#### Interaction design
+
+...
+
+### User interface
+
+#### Low fidelity
+
+...
+
+#### Mid fidelity
+
+...
+
+#### Usability test
+
+... (Bosquejo de Prueba de Usabilidad de la rubrica)
 
 > [👈 Go back.](../specs.md)
