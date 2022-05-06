@@ -578,6 +578,8 @@ To choose the metrics to apply, a scheme of questions was followed, whose answer
 
 In the following link you will find the document that contains the description of the metrics with the mentioned sections and the data collection artifacts for them:
 
+https://alumnosuady-my.sharepoint.com/:w:/g/personal/a16000959_alumnos_uady_mx/EZXQc20Onw1KkheW2tqq6m4B9yEiKWcCJlBuWRKOKRAL3A?e=zLSz6o
+
 - [Go to the document](https://alumnosuady-my.sharepoint.com/:w:/g/personal/a16000959_alumnos_uady_mx/EZXQc20Onw1KkheW2tqq6m4BHy7FZHxMO8IiVCFKYoCEBA?e=fiv9bd)
 
 > [👈 Go back.](../specs.md)
