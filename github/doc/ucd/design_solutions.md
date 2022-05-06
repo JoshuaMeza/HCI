@@ -466,11 +466,15 @@ flowchart TD
 
 #### Low fidelity
 
-...
+With the help of the content diagram, by using a single column layout mixed with the grid of cards and also implenting standard [icons](https://feathericons.com/), the team developed a first proposal that fit the specified requirements.
+
+[Click here to check the prototype.](https://www.figma.com/proto/40ex0p1mRFTtfvaGVpVyd1/HCI_Design?node-id=12%3A12&scaling=scale-down&page-id=0%3A1&starting-point-node-id=12%3A12&show-proto-sidebar=1)
 
 #### Mid fidelity
 
-...
+Once the low fidelity prototype was finished, the next step was doing some research to find an adequate scheme of colors. The chosen ones can be found by [clicking here](https://coolors.co/d9e6ff-3069ff-11357a-e88c20-fcfcfc-6da1ff).
+
+[Click here to check the prototype.](https://www.figma.com/proto/40ex0p1mRFTtfvaGVpVyd1/HCI_Design?node-id=72%3A435&scaling=min-zoom&page-id=67%3A434&starting-point-node-id=72%3A435&show-proto-sidebar=1)
 
 #### Usability test
 
