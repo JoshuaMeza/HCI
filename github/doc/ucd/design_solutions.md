@@ -376,7 +376,7 @@ flowchart TD
 
 #### Final content diagram
 
-After doing the same process for every existing requirement, we can get something like this:
+After doing the same process for every existing requirement and joining every individual content diagram, we can get something like this:
 
 ```mermaid
 flowchart LR
@@ -421,12 +421,45 @@ flowchart LR
 
 #### Interaction design
 
+The users are planned to use the application in the following way:
+
 ```mermaid
 flowchart TD
-  a(Container name)
-  b(Container name)
+  a(Start)
+  b[Initialize session]
+  c{Are you into activities?}
+  d{Research about mental health then?}
+  e{Drawing or Writing?}
+  f[You have created a Picasso!]
+  g[Welcome my new favourite book!]
+  h[Have fun reading!]
+  i[Configure the application.]
+  j{Create a new one?}
+  k[Saving, my lord!]
+  l{Check or edit old ones?}
+  m{See or share?}
+  n[Enjoy the view!]
+  o[They sure will love it!]
+  p[Improving your art, huh?]
+
 
   a --> b
+  b --> c
+  c -->|Yes| j
+  c -->|No| d
+  e -->|Drawing| f
+  e -->|Writing| g
+  d -->|Yes| h
+  d -->|No| i
+  j -->|Yes| e
+  f --> k
+  g --> k
+  j -->|No| l
+  l -->|Check| m
+  l -->|Edit| p
+  p --> k
+  m -->|See| n
+  m -->|Share| o
 ```
 
 ### User interface
