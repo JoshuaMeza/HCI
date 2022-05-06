@@ -2,7 +2,7 @@
 
 ## 📝 About the project
 
-[![Introduction video](./github/img/IntroVideoF.png)](#)
+[![Introduction video](./github/img/IntroVideoF.png)](https://youtu.be/WA_TGPcGYUM)
 
 This project is aiming to fight, or at least reducing, the negative effects on people’s mental health that social isolation has caused during the COVID-19 pandemic, such as stress, anxiety, sadness, among others.
 

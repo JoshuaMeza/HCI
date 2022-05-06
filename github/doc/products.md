@@ -16,6 +16,6 @@
 - [Gestalt principles video](https://youtu.be/HkePmaAnoKI)
 - [Design process presentation](https://alumnosuady-my.sharepoint.com/:p:/g/personal/a16001575_alumnos_uady_mx/ESMxwAdWWfFFh95xA3KL0oMBt4aHz71UgKOVQyoew-J3Hg?e=HJ72DP)
 - [Contribution metric](https://alumnosuady-my.sharepoint.com/:x:/g/personal/a16001575_alumnos_uady_mx/EVdDhSks1mlHm9066QWDB7kBw4sVD_DNbhw4p5BqEPsD-g?e=8o4HY7)
-- [Project introduction v3](#)
+- [Project introduction v3](https://youtu.be/WA_TGPcGYUM)
 
 > [👈 Go back.](./index.md)
