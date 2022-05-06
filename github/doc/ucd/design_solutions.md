@@ -490,15 +490,15 @@ The objectives of this test are the following:
 
 To achieve them, the following non-functional requirements were selected, which are part of the system:
 
-* NFR6: People must be able to understand how to use the application by intuition, they are not supposed to spend more tan 20 seconds to find where to access to any of the most representative features, starting in the principal menu, during their first-time use.
+- NFR6: People must be able to understand how to use the application by intuition, they are not supposed to spend more tan 20 seconds to find where to access to any of the most representative features, starting in the principal menu, during their first-time use.
 
-* NFR13: The system will have a user tutorial on each of the activity or information search sections.
+- NFR13: The system will have a user tutorial on each of the activity or information search sections.
 
-* NFR15: In case of error or bad behavior, the system must display an alert to notify the user of this behavior.
+- NFR15: In case of error or bad behavior, the system must display an alert to notify the user of this behavior.
 
-* NFR16: The rate of errors made by the user should be no more than 10% of system functionalities.
+- NFR16: The rate of errors made by the user should be no more than 10% of system functionalities.
 
-* NFR17: The system will ask the user about their level of satisfaction in the use of an activity after completing any of them.
+- NFR17: The system will ask the user about their level of satisfaction in the use of an activity after completing any of them.
 
 b) Test Planning:
 
@@ -506,35 +506,35 @@ In general, the tests are expected to be applied to 5 people each, trying to app
 
 During the test, in terms of users, different scenarios may occur that could affect their performance in the use of the application, these are:
 
-* The user has ever used an application with similar functionalities or several that have at least one of them, so he knows how to use them.
+- The user has ever used an application with similar functionalities or several that have at least one of them, so he knows how to use them.
 
-* The user has no experience in handling this type of functions and her learning curve is the most interesting.
+- The user has no experience in handling this type of functions and her learning curve is the most interesting.
 
 In general, each metric should contain the following elements:
 
-* Metric, object and measurement attribute
+- Metric, object and measurement attribute
 
-* Methodology
+- Methodology
 
-* Measurement time
+- Measurement time
 
-* Personnel, roles and responsibilities
+- Personnel, roles and responsibilities
 
-* Activities Calendar
+- Activities Calendar
 
-* Used tools
+- Used tools
 
-* Data storage media
+- Data storage media
 
-* Measurement procedure
+- Measurement procedure
 
-* Criteria for suspension and resumption
+- Criteria for suspension and resumption
 
-* Results reports
+- Results reports
 
-* Analysis of results
+- Analysis of results
 
-* Conclusions
+- Conclusions
 
 Because each metric to be used has materials, times, instruments or tools, these sections are described for each of them.
 
@@ -544,39 +544,40 @@ To choose the metrics to apply, a scheme of questions was followed, whose answer
 
 • How easy is it to use? Referring to the ease that users have to perform the tasks of the application.
 
-  - Efficiency based on time
+- Efficiency based on time
 
-  - Effectiveness rate of performing tasks
+- Effectiveness rate of performing tasks
 
-  - Number of user errors
+- Number of user errors
 
-  - Simplicity level of the interface
+- Simplicity level of the interface
 
 • How easy is it to learn? Related to how intuitive the system is so that the user knows how to use it in the shortest time possible.
 
-  - Number of user errors
+- Number of user errors
 
-  - Interface satisfaction level
+- Interface satisfaction level
 
 • How satisfactory is its use? In relation to the impression of the users when using the application and the simplicity of using it.
 
-  - Simplicity level of the interface
+- Simplicity level of the interface
 
-  - Interface satisfaction level
+- Interface satisfaction level
 
 • How quickly can the task be completed? In order to determine how much time was needed to invest to do the required activities.
 
-  - Efficiency based on time
+- Efficiency based on time
 
 • How intuitive is the interface? In relation to the speed and ease of the user to understand how the application works.
 
-  - Effectiveness rate of performing tasks
+- Effectiveness rate of performing tasks
 
-  - Number of user errors
+- Number of user errors
 
-  - Simplicity level of the interface
-  
- In the following link you will find the document that contains the description of the metrics with the mentioned sections and the data collection artifacts for them:
-* https://alumnosuady-my.sharepoint.com/:w:/g/personal/a16000959_alumnos_uady_mx/EZXQc20Onw1KkheW2tqq6m4BHy7FZHxMO8IiVCFKYoCEBA?e=fiv9bd
+- Simplicity level of the interface
+
+In the following link you will find the document that contains the description of the metrics with the mentioned sections and the data collection artifacts for them:
+
+- [Go to the document](https://alumnosuady-my.sharepoint.com/:w:/g/personal/a16000959_alumnos_uady_mx/EZXQc20Onw1KkheW2tqq6m4BHy7FZHxMO8IiVCFKYoCEBA?e=fiv9bd)
 
 > [👈 Go back.](../specs.md)
