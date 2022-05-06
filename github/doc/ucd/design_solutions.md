@@ -163,6 +163,105 @@ In the case of designing user interfaces, you probably would like to use a stand
 
 #### Usability test
 
-... (Bosquejo de Prueba de Usabilidad de la rubrica)
+a) Selection of Usability NFR:
+
+The objectives of this test are the following:
+
+1. Determine if users who will use the Software product will be satisfied with the functionality and performance of the Software.
+2. Decrease the probability that the user of the Software product will not experience any user interface problems during use.
+3. Know the user's learnability in terms of how quickly they learn to use the system.
+4. Determine the ease of use of the system.
+5. Obtain the rate of effectiveness of performing the tasks, related to the effort required to learn and operate the system.
+
+To achieve them, the following non-functional requirements were selected, which are part of the system:
+
+* NFR6: People must be able to understand how to use the application by intuition, they are not supposed to spend more tan 20 seconds to find where to access to any of the most representative features, starting in the principal menu, during their first-time use.
+
+* NFR13: The system will have a user tutorial on each of the activity or information search sections.
+
+* NFR15: In case of error or bad behavior, the system must display an alert to notify the user of this behavior.
+
+* NFR16: The rate of errors made by the user should be no more than 10% of system functionalities.
+
+* NFR17: The system will ask the user about their level of satisfaction in the use of an activity after completing any of them.
+
+b) Test Planning:
+
+In general, the tests are expected to be applied to 5 people each, trying to apply it to different people, although in the same quantity, for those whose condition of application conflicts with others.
+
+During the test, in terms of users, different scenarios may occur that could affect their performance in the use of the application, these are:
+
+* The user has ever used an application with similar functionalities or several that have at least one of them, so he knows how to use them.
+
+* The user has no experience in handling this type of functions and her learning curve is the most interesting.
+
+In general, each metric should contain the following elements:
+
+* Metric, object and measurement attribute
+
+* Methodology
+
+* Measurement time
+
+* Personnel, roles and responsibilities
+
+* Activities Calendar
+
+* Used tools
+
+* Data storage media
+
+* Measurement procedure
+
+* Criteria for suspension and resumption
+
+* Results reports
+
+* Analysis of results
+
+* Conclusions
+
+Because each metric to be used has materials, times, instruments or tools, these sections are described for each of them.
+
+c) Usability Metrics and Usability Test Protocol
+
+To choose the metrics to apply, a scheme of questions was followed, whose answers would be the metrics that would help us answer them, presented below:
+
+• How easy is it to use? Referring to the ease that users have to perform the tasks of the application.
+
+  - Efficiency based on time
+
+  - Effectiveness rate of performing tasks
+
+  - Number of user errors
+
+  - Simplicity level of the interface
+
+• How easy is it to learn? Related to how intuitive the system is so that the user knows how to use it in the shortest time possible.
+
+  - Number of user errors
+
+  - Interface satisfaction level
+
+• How satisfactory is its use? In relation to the impression of the users when using the application and the simplicity of using it.
+
+  - Simplicity level of the interface
+
+  - Interface satisfaction level
+
+• How quickly can the task be completed? In order to determine how much time was needed to invest to do the required activities.
+
+  - Efficiency based on time
+
+• How intuitive is the interface? In relation to the speed and ease of the user to understand how the application works.
+
+  - Effectiveness rate of performing tasks
+
+  - Number of user errors
+
+  - Simplicity level of the interface
+  
+ In the following link you will find the document that contains the description of the metrics with the mentioned sections and the data collection artifacts for them:
+* https://alumnosuady-my.sharepoint.com/:w:/g/personal/a16000959_alumnos_uady_mx/EZXQc20Onw1KkheW2tqq6m4BHy7FZHxMO8IiVCFKYoCEBA?e=fiv9bd
 
 > [👈 Go back.](../specs.md)
