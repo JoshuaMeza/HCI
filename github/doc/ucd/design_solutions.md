@@ -162,37 +162,37 @@ After that, to increase readability, it is good to organize the information in a
 
 The next step is to prototype the containers.
 
-| **Name**                        | Main                                                                                               |
-| ------------------------------- | -------------------------------------------------------------------------------------------------- |
-| **Purpose**                     | Support for app activities                                                                         |
-| **Functions**                   | - Access to the draw activity <br> - Access to the diary activity                                  |
-| **Links**                       | - Diary <br> - Draw                                                                                |
-| **Objects**                     |                                                                                                    |
-| **Non-functional requirements** | - Must be responsive <br> - Alert in case of error <br> - Response time not greater than 2 seconds |
+| **Name**                        | Main                                                              |
+| ------------------------------- | ----------------------------------------------------------------- |
+| **Purpose**                     | Support for app activities                                        |
+| **Functions**                   | - Access to the draw activity <br> - Access to the diary activity |
+| **Links**                       | - Diary <br> - Draw                                               |
+| **Objects**                     |                                                                   |
+| **Non-functional requirements** | NFR1, NFR6, NFR14, NFR15, NFR16                                   |
 
-| **Name**                        | Draw activity                                                                                                                        |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **Purpose**                     | The user can draw inside the canvas in the application                                                                               |
-| **Functions**                   | - Draw <br> - Paint <br> - Change the stroke style <br> - Save                                                                       |
-| **Links**                       | Save activity                                                                                                                        |
-| **Objects**                     | Document                                                                                                                             |
-| **Non-functional requirements** | - Must be responsive <br> - Activities need a tutorial <br> - Alert in case of error <br> - Response time not greater than 2 seconds |
+| **Name**                        | Draw activity                                                  |
+| ------------------------------- | -------------------------------------------------------------- |
+| **Purpose**                     | The user can draw inside the canvas in the application         |
+| **Functions**                   | - Draw <br> - Paint <br> - Change the stroke style <br> - Save |
+| **Links**                       | - Save activity                                                |
+| **Objects**                     | Document                                                       |
+| **Non-functional requirements** | NFR1, NFR6, NFR13, NFR14, NFR15, NFR16                         |
 
-| **Name**                        | Diary activity                                                                                                                       |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **Purpose**                     | The user can draw inside the canvas in the application                                                                               |
-| **Functions**                   | - Write <br> - Edit text <br> - Save <br> - Change text format                                                                       |
-| **Links**                       | Save activity                                                                                                                        |
-| **Objects**                     | Document                                                                                                                             |
-| **Non-functional requirements** | - Must be responsive <br> - Activities need a tutorial <br> - Alert in case of error <br> - Response time not greater than 2 seconds |
+| **Name**                        | Diary activity                                                 |
+| ------------------------------- | -------------------------------------------------------------- |
+| **Purpose**                     | The user can draw inside the canvas in the application         |
+| **Functions**                   | - Write <br> - Edit text <br> - Save <br> - Change text format |
+| **Links**                       | - Save activity                                                |
+| **Objects**                     | Document                                                       |
+| **Non-functional requirements** | NFR1, NFR6, NFR13, NFR14, NFR15, NFR16                         |
 
-| **Name**                        | Save activity                                                                                                 |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| **Purpose**                     | Save the progress of an activity                                                                              |
-| **Functions**                   | - Save                                                                                                        |
-| **Links**                       |                                                                                                               |
-| **Objects**                     | Encrypted document                                                                                            |
-| **Non-functional requirements** | - Alert in case of error <br> - Response time not greater than 2 seconds <br> - Information must be encrypted |
+| **Name**                        | Save activity                    |
+| ------------------------------- | -------------------------------- |
+| **Purpose**                     | Save the progress of an activity |
+| **Functions**                   | - Save                           |
+| **Links**                       |                                  |
+| **Objects**                     | Encrypted document               |
+| **Non-functional requirements** | NFR1, NFR3, NFR15, NFR17         |
 
 Finally, it is time to build the content diagram.
 
@@ -215,40 +215,77 @@ flowchart TD
 
 As we know, we start by marking up the concrete requirements to identify task objects, their attributes, and their actions.
 
-| User action | System response |
-| ----------- | --------------- |
-| ...         | ...             |
+| User action                                                                                                                              | System response                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| The user enters the application to **investigate** or learn more about a topic on mental health and goes to the **information section**. | The system displays the list of mental health topics available to browse.                                                     |
+| The user **selects the topic** that catches his attention.                                                                               | The system **displays the information of the topic** selected by the user and lets him browse the rest of the available ones. |
+| The user has the option to **filter** the information section for specific topics they want to **investigate**.                          | The system display the topics the user has filtered, giving the option for selecting an article.                              |
 
 Then, it is helpful to compile them, along with the actions, into a single object–action–attribute table.
 
-| User action | System response |
-| ----------- | --------------- |
-| ...         | ...             |
+| User action                                                                            | System response                                                                                                                                                                     |
+| -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| The user **consults or searches the topics** available in the **information section**. | The system displays the list of mental health topics available to browse.                                                                                                           |
+| The user **selects the topic** that catches his attention.                             | The system displays the information of the topic selected by the user, this includes the **title**, the **date** of publication, the **content** and the associated **multimedia**. |
+| The user **filters the topics** they want to investigate.                              | The system displays different topics on the filter related to what the user is looking for, usually the content or associated multimedia is the information presented.              |
 
 After that, to increase readability, it is good to organize the information in an object–attribute–action table.
 
 | Task object | Attributes | Actions |
 | :---------: | :--------: | :-----: |
-|     ...     |    ...     |   ...   |
+|  **Topic**  |   Title    |  View   |
+|             |    Date    |  View   |
+|             |  Content   |  View   |
+|             | Multimedia |  View   |
 
 The next step is to prototype the containers.
 
-| **Name**                        | ...              |
-| ------------------------------- | ---------------- |
-| **Purpose**                     | ...              |
-| **Functions**                   | - ... <br> - ... |
-| **Links**                       | ...              |
-| **Objects**                     | ...              |
-| **Non-functional requirements** | ...              |
+| **Name**                        | Main                                         |
+| ------------------------------- | -------------------------------------------- |
+| **Purpose**                     | Support for information section              |
+| **Functions**                   | - Search article <br> - Consult all articles |
+| **Links**                       | - Search article <br> - Consult all articles |
+| **Objects**                     |                                              |
+| **Non-functional requirements** | NFR2, NFR6, NFR8, NFR13                      |
+
+| **Name**                        | Search article                             |
+| ------------------------------- | ------------------------------------------ |
+| **Purpose**                     | The user can search for an article         |
+| **Functions**                   | - Display articles <br> - Open article     |
+| **Links**                       | - Consult all articles <br> - View article |
+| **Objects**                     | Articles                                   |
+| **Non-functional requirements** | NFR4                                       |
+
+| **Name**                        | Consult all articles                                                                   |
+| ------------------------------- | -------------------------------------------------------------------------------------- |
+| **Purpose**                     | The user can consult all the information available on mental health in the application |
+| **Functions**                   | - Search article <br> - Open article                                                   |
+| **Links**                       | - Search article <br> - View article                                                   |
+| **Objects**                     | Articles                                                                               |
+| **Non-functional requirements** | NFR2, NFR4                                                                             |
+
+| **Name**                        | View article                            |
+| ------------------------------- | --------------------------------------- |
+| **Purpose**                     | The user can open an article to read it |
+| **Functions**                   | - Read article                          |
+| **Links**                       |                                         |
+| **Objects**                     | Article                                 |
+| **Non-functional requirements** | NFR2, NFR14                             |
 
 Finally, it is time to build the content diagram.
 
 ```mermaid
 flowchart TD
-  a(Container name)
-  b(Container name)
+  a(Main)
+  b(Search article)
+  c(Consult all articles)
+  d(View article)
 
   a --> b
+  a --> c
+  b <--> c
+  b --> d
+  c --> d
 ```
 
 #### Use case 3: Security and Privacy
@@ -304,13 +341,13 @@ flowchart LR
   e(Information section)
   f(Perform activity)
   g(Access activity)
-  h(Search topic)
-  i(Consult all topics)
+  h(Search article)
+  i(Consult all articles)
   j(Draw activity)
   k(Diary activity)
   l(View activity)
   m(Edit activity)
-  n(View topic)
+  n(View article)
   o(Save activity)
   p(Share activity)
 
@@ -331,9 +368,9 @@ flowchart LR
   h --> n
   i --> n
   l --> p
+  l --> m
   j --> o
   k --> o
-  l --> o
   m --> o
 ```
 
