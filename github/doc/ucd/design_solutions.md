@@ -155,7 +155,7 @@ After that, to increase readability, it is good to organize the information in a
 
 | Task object  |    Attributes    |     Actions     |
 | :----------: | :--------------: | :-------------: |
-| **Activity** |      Title       |      View       |
+| **Activity** |      Title       | View <br> Edit  |
 |              |     Content      | Edit <br> Save  |
 |              | Number of sheets | Add <br> Remove |
 |              |      Format      |      Edit       |
@@ -294,43 +294,89 @@ flowchart TD
 
 As we know, we start by marking up the concrete requirements to identify task objects, their attributes, and their actions.
 
-| User action | System response |
-| ----------- | --------------- |
-| ...         | ...             |
+| User action                                                               | System response                                                                                                                            |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| The user **perform** an activity available in the **activities section**. | The system **analize and encrypt** the activity performed by the user.                                                                     |
+| The user can **check** their previously done activities.                  | The system shows the **activity’s information** that was saved.                                                                            |
+| The user can **edit** their previously done activities.                   | The system shows the activity information saved previously and allows the user to **update**, **edit** or **erase** information from them. |
 
 Then, it is helpful to compile them, along with the actions, into a single object–action–attribute table.
 
-| User action | System response |
-| ----------- | --------------- |
-| ...         | ...             |
+| User action                                                               | System response                                                                                                                                                                |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| The user **perform** an activity available in the **activities section**. | The system **analize, encrypt and save** the activity that was performed by the user in a database. Also **shows a tutorial** if it is their first time using the application. |
+| The user can **check and edit** their previously done activities.         | The system shows the **activity’s information** that was saved.                                                                                                                |
 
 After that, to increase readability, it is good to organize the information in an object–attribute–action table.
 
-| Task object | Attributes | Actions |
-| :---------: | :--------: | :-----: |
-|     ...     |    ...     |   ...   |
+| Task object  |    Attributes    |     Actions     |
+| :----------: | :--------------: | :-------------: |
+| **Activity** |      Title       | View <br> Edit  |
+|              |     Content      | Edit <br> Save  |
+|              | Number of sheets | Add <br> Remove |
+|              |      Format      |      Edit       |
 
 The next step is to prototype the containers.
 
-| **Name**                        | ...              |
-| ------------------------------- | ---------------- |
-| **Purpose**                     | ...              |
-| **Functions**                   | - ... <br> - ... |
-| **Links**                       | ...              |
-| **Objects**                     | ...              |
-| **Non-functional requirements** | ...              |
+| **Name**                        | Main                                      |
+| ------------------------------- | ----------------------------------------- |
+| **Purpose**                     | Support fot activity information          |
+| **Functions**                   | - Perform activity <br> - Access activity |
+| **Links**                       | - Perform activity <br> - Access activity |
+| **Objects**                     |                                           |
+| **Non-functional requirements** | NFR1, NFR3, NFR6, NFR10, NFR11            |
+
+| **Name**                        | Perform activity                                       |
+| ------------------------------- | ------------------------------------------------------ |
+| **Purpose**                     | The user performs an activity by creating a new record |
+| **Functions**                   |                                                        |
+| **Links**                       |                                                        |
+| **Objects**                     | Activity                                               |
+| **Non-functional requirements** | NFR3, NFR13, NFR17                                     |
+
+| **Name**                        | Access activity                 |
+| ------------------------------- | ------------------------------- |
+| **Purpose**                     | The user checks an old activity |
+| **Functions**                   | - Edit activity                 |
+| **Links**                       | - Edit activity                 |
+| **Objects**                     | Activity                        |
+| **Non-functional requirements** | NFR5, NFR7                      |
+
+| **Name**                        | Edit activity                       |
+| ------------------------------- | ----------------------------------- |
+| **Purpose**                     | The user can edit ther old activity |
+| **Functions**                   | - Edit <br> - Save                  |
+| **Links**                       | - Save                              |
+| **Objects**                     | Activity                            |
+| **Non-functional requirements** | NFR5, NFR7, NFR3                    |
+
+| **Name**                        | Save activity                    |
+| ------------------------------- | -------------------------------- |
+| **Purpose**                     | Save the progress of an activity |
+| **Functions**                   | - Save                           |
+| **Links**                       |                                  |
+| **Objects**                     | Encrypted document               |
+| **Non-functional requirements** | NFR1, NFR3, NFR15, NFR17         |
 
 Finally, it is time to build the content diagram.
 
 ```mermaid
 flowchart TD
-  a(Container name)
-  b(Container name)
+  a(Main)
+  b(Perform activity)
+  c(Access activity)
+  d(Edit activity)
+  e(Save activity)
 
   a --> b
+  a --> c
+  c --> d
+  d --> e
 ```
 
 #### Final content diagram
+
+After doing the same process for every existing requirement, we can get something like this:
 
 ```mermaid
 flowchart LR
@@ -357,7 +403,6 @@ flowchart LR
   b --> e
   c --> f
   c --> g
-  f <--> g
   e --> h
   e --> i
   h <--> i
