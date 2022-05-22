@@ -29,17 +29,18 @@
 | **18** | Design process definition                              |        Everyone        |  March 28   |  March 31   | Design process presentation                         |
 | **19** | Design process adaptation                              |        Everyone        |   April 4   |   April 8   | Design process presentation                         |
 | **20** | Design process application                             | Alejandro and Jonathan |  April 22   |  April 25   | Content diagram                                     |
-| **21** | Prototype design                                       |   Carlos and Joshua    |  April 25   |  April 26   | Low fidelity prototype                              |
+| **21** | Prototype design                                       |   Carlos and Joshua    |  April 25   |  April 26   | Low fidelity prototype (v1.0.0)                     |
 | **22** | Progress control meeting                               |        Everyone        |  April 29   |  April 29   | Progress validation                                 |
 | **23** | Requirements update                                    |        Jonathan        |    May 1    |    May 3    | User requirements                                   |
 | **24** | Design process application                             |       Alejandro        |    May 3    |    May 4    | Content diagram                                     |
-| **25** | Team's class                                           |        Everyone        |    May 3    |     ---     | Experiment results                                  |
-| **26** | Prototype design                                       |   Carlos and Joshua    |    May 4    |    May 5    | Mid fidelity prototype                              |
-| **27** | Project overview                                       |  Alejandro and Carlos  |    May 5    |    May 5    | Introduction video v3                               |
-| **28** | Repository development - Third iteration               |        Everyone        |    May 6    |     ---     | Repository                                          |
-| **29** | Test design                                            |        Everyone        |    May 6    |     ---     | Testing process                                     |
-| **30** | Progress control meeting                               |        Everyone        |   May 13    |   May 13    | Progress validation                                 |
-| **31** | Project overview                                       |        Everyone        |     ---     |     ---     | Introduction video v4                               |
+| **25** | Prototype design                                       |   Carlos and Joshua    |    May 4    |    May 5    | Mid fidelity prototype (v2.0.0)                     |
+| **26** | Project overview                                       |  Alejandro and Carlos  |    May 5    |    May 5    | Introduction video v3                               |
+| **27** | Repository development - Third iteration               |        Everyone        |    May 6    |   24 May    | Repository                                          |
+| **28** | Test design                                            |        Everyone        |    May 6    |   18 May    | Testing plan, metrics and tools                     |
+| **29** | Progress control meeting                               |        Everyone        |   May 13    |   May 13    | Progress validation                                 |
+| **30** | Prototype update                                       |        Everyone        |   May 14    |   May 18    | Mid fidelity prototype (v2.1.0)                     |
+| **31** | Test applications                                      |        Everyone        |   May 17    |   May 19    | Test results                                        |
+| **32** | Project overview                                       |        Everyone        |   May 17    |   May 24    | Project presentation and introduction video v4      |
 
 ## Work metric
 
