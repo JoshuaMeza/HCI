@@ -25,6 +25,7 @@
 - [Testing application guide](https://alumnosuady-my.sharepoint.com/:w:/g/personal/a16000959_alumnos_uady_mx/ESGPoZl0wRRPuhbuFTWCn3MB5CuLhdJFFJ_eChnVi3wuNA?e=BjRXHW)
 - [Testing tool: Maze](https://t.maze.co/91689628)
 - [Testing tool: SUS](https://docs.google.com/forms/d/e/1FAIpQLSepxBr4mfIWnV6aDRCvn5jrsuotnyy-bFWxhI5z8YcFJqHGCw/viewform?usp=sf_link)
-- [Project introduction v4](#)
+- [SUS metric results](https://alumnosuady-my.sharepoint.com/:x:/g/personal/a16001575_alumnos_uady_mx/ET1a_qFwW6BIrwBNmgvH3bQB_8Gry3Wzpj0IbIaLthXpIQ?e=04cGZw)
+- [Project introduction v4](https://youtu.be/09uz5iI46PQ)
 
 > [👈 Go back.](./index.md)
